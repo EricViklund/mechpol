@@ -13,6 +13,8 @@ if __name__ == '__main__':
 
     doc = Document(documentclass=documentclass)
 
+
+
     doc.append(Command('bibliography',
                     arguments='bib'))
 

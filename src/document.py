@@ -13,9 +13,10 @@ if __name__ == '__main__':
 
     doc = Document(documentclass=documentclass)
 
-
+    with doc.create(Section("Introduction")):
+        doc.append(NoEscape(open('doc/sections/introduction/introduction.txt').read()))
 
     doc.append(Command('bibliography',
                     arguments='bib'))
 
-    doc.generate_pdf(datetime.now().strftime("%Y-%m-%d"))
+    doc.generate_pdf(".tmp/"+datetime.now().strftime("%Y-%m-%d"))

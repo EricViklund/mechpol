@@ -15,22 +15,22 @@ if __name__ == '__main__':
 
     doc = Document(documentclass=documentclass)
 
-    doc.preamble.append(Command('title',NoEscape(r'Improving Nb\textsubscript{3}Sn Cavity Performance Using Mechanical Polishing')))
+    doc.append(Command('title',NoEscape(r'Improving Nb\textsubscript{3}Sn Cavity Performance Using Mechanical Polishing')))
    
-   # doc.preamble.append(Command('author','Eric Viklund'))
-   # doc.preamble.append(Command('affiliation','Department of Materials Science and Engineering, Northwestern University'))
-   # doc.preamble.append(Command('affiliation','Fermi National Accelerator Laboratory'))
+    doc.append(Command('author','Eric Viklund'))
+    doc.append(Command('affiliation','Department of Materials Science and Engineering, Northwestern University'))
+    doc.append(Command('affiliation','Fermi National Accelerator Laboratory'))
 
-  #  doc.preamble.append(Command('author','David N. Seidman'))
-  #  doc.preamble.append(Command('affiliation','Department of Materials Science and Engineering, Northwestern University'))
+    doc.append(Command('author','David N. Seidman'))
+    doc.append(Command('affiliation','Department of Materials Science and Engineering, Northwestern University'))
 
-   # doc.preamble.append(Command('author','David Burk'))
-   # doc.preamble.append(Command('affiliation','Fermi National Accelerator Laboratory'))
+    doc.append(Command('author','David Burk'))
+    doc.append(Command('affiliation','Fermi National Accelerator Laboratory'))
 
-   # doc.preamble.append(Command('author','Sam Posen'))
-  #  doc.preamble.append(Command('affiliation','Fermi National Accelerator Laboratory'))
+    doc.append(Command('author','Sam Posen'))
+    doc.append(Command('affiliation','Fermi National Accelerator Laboratory'))
 
-    doc.preamble.append(Command('date',NoEscape(r'\today')))
+    doc.append(Command('date',NoEscape(r'\today')))
 
     doc.append(NoEscape(r'\maketitle'))
 

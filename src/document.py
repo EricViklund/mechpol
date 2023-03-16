@@ -1,9 +1,13 @@
 from pylatex import Document, Section, Subsection, Figure, NoEscape, Command, Package
 from pylatex.base_classes.command import Options
+from pylatex.base_classes.containers import Environment
 from pylatex.labelref import Marker, Label
 from datetime import datetime
 from shutil import copy
 from os import makedirs
+
+class Abstract(Environment):
+    """A class to wrap LaTeX's abstract environment."""
 
 
 
@@ -34,6 +38,8 @@ if __name__ == '__main__':
 
     doc.append(NoEscape(r'\maketitle'))
 
+    with doc.create(Abstract()) as abstract:
+        abstract.append(NoEscape(open('doc/sections/abstract/abstract.txt').read()))
 
     with doc.create(Section("Introduction")):
         doc.append(NoEscape(open('doc/sections/introduction/introduction.txt').read()))

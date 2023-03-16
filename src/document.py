@@ -14,6 +14,26 @@ if __name__ == '__main__':
 
     doc = Document(documentclass=documentclass)
 
+    doc.preamble.append(Command('title',NoEscape(r'Improving Nb\textsubscript{3}Sn Cavity Performance Using Mechanical Polishing')))
+   
+   # doc.preamble.append(Command('author','Eric Viklund'))
+   # doc.preamble.append(Command('affiliation','Department of Materials Science and Engineering, Northwestern University'))
+   # doc.preamble.append(Command('affiliation','Fermi National Accelerator Laboratory'))
+
+  #  doc.preamble.append(Command('author','David N. Seidman'))
+  #  doc.preamble.append(Command('affiliation','Department of Materials Science and Engineering, Northwestern University'))
+
+   # doc.preamble.append(Command('author','David Burk'))
+   # doc.preamble.append(Command('affiliation','Fermi National Accelerator Laboratory'))
+
+   # doc.preamble.append(Command('author','Sam Posen'))
+  #  doc.preamble.append(Command('affiliation','Fermi National Accelerator Laboratory'))
+
+    doc.preamble.append(Command('date',NoEscape(r'\today')))
+
+    doc.append(NoEscape(r'\maketitle'))
+
+
     with doc.create(Section("Introduction")):
         doc.append(NoEscape(open('doc/sections/introduction/introduction.txt').read()))
 

@@ -3,6 +3,7 @@ from pylatex.base_classes.command import Options
 from pylatex.labelref import Marker, Label
 from datetime import datetime
 from shutil import copy
+from os import makedirs
 
 
 
@@ -37,6 +38,10 @@ if __name__ == '__main__':
     with doc.create(Section("Introduction")):
         doc.append(NoEscape(open('doc/sections/introduction/introduction.txt').read()))
 
+    try:
+        makedirs('.tmp')
+    except:
+        None
     copy('doc/bibliography/bib.bib','.tmp/')
     doc.append(Command('bibliography',
                     arguments='bib'))

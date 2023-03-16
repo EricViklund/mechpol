@@ -44,6 +44,12 @@ if __name__ == '__main__':
     with doc.create(Section("Introduction")):
         doc.append(NoEscape(open('doc/sections/introduction/introduction.txt').read()))
 
+    with doc.create(Section("sample-study")) as section:
+        doc.append(NoEscape(open('doc/sections/sample-study/sample-study.txt').read()))
+    
+        with section.create(Subsection("Centrifugal Barrel Polishing")):
+            section.append(NoEscape(open('doc/sections/sample-study/subsections/centrifugal-barrel-polishing/centrifugal-barrel-polishing.txt').read()))
+    
     try:
         makedirs('.tmp')
     except:

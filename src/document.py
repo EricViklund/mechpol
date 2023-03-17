@@ -44,11 +44,18 @@ if __name__ == '__main__':
     with doc.create(Section("Introduction")):
         doc.append(NoEscape(open('doc/sections/introduction/introduction.txt').read()))
 
-    with doc.create(Section("sample-study")) as section:
+    with doc.create(Section("sample study")) as section:
         doc.append(NoEscape(open('doc/sections/sample-study/sample-study.txt').read()))
     
         with section.create(Subsection("Centrifugal Barrel Polishing")):
             section.append(NoEscape(open('doc/sections/sample-study/subsections/centrifugal-barrel-polishing/centrifugal-barrel-polishing.txt').read()))
+    
+        with section.create(Subsection("Coupon Cavity")):
+            section.append(NoEscape(open('doc/sections/sample-study/subsections/coupon_cavity/coupon_cavity.txt').read()))
+
+        with section.create(Subsection(NoEscape(r"Nb\textsubscript{3}Sn Coating Using Tin Vapor-Diffusion"))):
+            section.append(NoEscape(open('doc/sections/sample-study/subsections/nb3sn_coating/nb3sn_coating.txt').read()))
+
     
     try:
         makedirs('.tmp')

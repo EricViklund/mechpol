@@ -62,9 +62,20 @@ if __name__ == '__main__':
     with doc.create(Section(NoEscape(r"Polishing a Nb\textsubscript{3}Sn Cavity Using CBP"),label='cavity_cbp')) as section:
         doc.append(NoEscape(open('doc/sections/cavity_cbp.txt').read()))
 
-        with section.create(Subsection("Low Temperature Re-coating Procedure",label='recoating')):
+        with section.create(Subsection(NoEscape(r"Low Temperature Re-coating Procedure"),label='recoating')):
             section.append(NoEscape(open('doc/sections/recoating.txt').read()))
 
+        with section.create(Subsection(NoEscape(r"SRF Cavity RF-Performance Testing"),label='vts')):
+            section.append(NoEscape(open('doc/sections/vts.txt').read()))
+
+        with section.create(Subsection(NoEscape(r"Performance of a Polished Nb\textsubscript{3}Sn SRF Cavity"),label='cavity_results')):
+            section.append(NoEscape(open('doc/sections/cavity_results.txt').read()))
+
+    with doc.create(Section("Discussion")):
+        doc.append(NoEscape(open('doc/sections/discussion.txt').read()))
+
+    with doc.create(Section("Conclusion")):
+        doc.append(NoEscape(open('doc/sections/conclusion.txt').read()))
         
     
     try:

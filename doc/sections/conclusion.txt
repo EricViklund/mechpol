@@ -1,0 +1,3 @@
+The work presented in this paper shows that centrifugal barrel polishing is a promising treatment for Nb\textsubscript{3}Sn cavities. Through a series of sample studies, we were able to develop a mechanical polishing procedure that can produce surface roughness that was previously unobtainable. We have found that it is possible to attain films with a surface roughness of 20 nm or lower. 
+
+Furthermore, we have shown that this surface polishing technique can be used to improve the performance of Nb\textsubscript{3}Sn coated cavities when it is paired with a re-coating step, which consists of a short, low-temperature tin coating.

@@ -1,0 +1,3 @@
+The as-coated performance of the cavity was poor compared to most other Nb\textsubscript{3}Sn cavities reaching an accelerating gradient of around 10~MV/m with a Q of 10\textsuperscript{10} at 4.4~K. After the polishing is applied, the cavity exhibits Q-slope (the quality factor decreases with increasing accelerating field), and the maximum gradient was only 5~MV/m.
+
+After the cavity was treated with the re-coating treatment, detailed in Section\ref{sec:recoating}, the Q-slope is ameliorated and the maximum accelerating gradient increases to 15~MV/m. The quality factor of the cavity was also improved over the as-coated state at 2.0~K, but not at 4.4~K. Fig.\ref{fig:VTS Test Graph} shows the performance of the cavity after each step.

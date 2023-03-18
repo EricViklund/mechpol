@@ -59,6 +59,13 @@ if __name__ == '__main__':
         with section.create(Subsection(NoEscape(r"Surface Analysis of Mechanically Polished Nb\textsubscript{3}Sn Coated Samples"),label='sample_analysis')):
             section.append(NoEscape(open('doc/sections/sample_analysis.txt').read()))
 
+    with doc.create(Section(NoEscape(r"Polishing a Nb\textsubscript{3}Sn Cavity Using CBP"),label='cavity_cbp')) as section:
+        doc.append(NoEscape(open('doc/sections/cavity_cbp.txt').read()))
+
+        with section.create(Subsection("Low Temperature Re-coating Procedure",label='recoating')):
+            section.append(NoEscape(open('doc/sections/recoating.txt').read()))
+
+        
     
     try:
         makedirs('.tmp')

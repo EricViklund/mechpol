@@ -39,22 +39,25 @@ if __name__ == '__main__':
     doc.append(NoEscape(r'\maketitle'))
 
     with doc.create(Abstract()) as abstract:
-        abstract.append(NoEscape(open('doc/sections/abstract/abstract.txt').read()))
+        abstract.append(NoEscape(open('doc/sections/abstract.txt').read()))
 
     with doc.create(Section("Introduction")):
-        doc.append(NoEscape(open('doc/sections/introduction/introduction.txt').read()))
+        doc.append(NoEscape(open('doc/sections/introduction.txt').read()))
 
     with doc.create(Section("sample study")) as section:
-        doc.append(NoEscape(open('doc/sections/sample-study/sample-study.txt').read()))
+        doc.append(NoEscape(open('doc/sections/sample_study.txt').read()))
     
         with section.create(Subsection("Centrifugal Barrel Polishing")):
-            section.append(NoEscape(open('doc/sections/sample-study/subsections/centrifugal-barrel-polishing/centrifugal-barrel-polishing.txt').read()))
+            section.append(NoEscape(open('doc/sections/centrifugal_barrel_polishing.txt').read()))
     
         with section.create(Subsection("Coupon Cavity")):
-            section.append(NoEscape(open('doc/sections/sample-study/subsections/coupon_cavity/coupon_cavity.txt').read()))
+            section.append(NoEscape(open('doc/sections/coupon_cavity.txt').read()))
 
-        with section.create(Subsection(NoEscape(r"Nb\textsubscript{3}Sn Coating Using Tin Vapor-Diffusion"))):
-            section.append(NoEscape(open('doc/sections/sample-study/subsections/nb3sn_coating/nb3sn_coating.txt').read()))
+        with section.create(Subsection(NoEscape(r"Nb\textsubscript{3}Sn Coating Using Tin Vapor-Diffusion"),label='nb3sn_coating')):
+            section.append(NoEscape(open('doc/sections/nb3sn_coating.txt').read()))
+
+        with section.create(Subsection(NoEscape(r"Surface Analysis of Mechanically Polished Nb\textsubscript{3}Sn Coated Samples"),label='sample_analysis')):
+            section.append(NoEscape(open('doc/sections/sample_analysis.txt').read()))
 
     
     try:

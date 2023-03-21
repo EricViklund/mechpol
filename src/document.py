@@ -41,16 +41,16 @@ if __name__ == '__main__':
     with doc.create(Abstract()) as abstract:
         abstract.append(NoEscape(open('doc/sections/abstract.txt').read()))
 
-    with doc.create(Section("Introduction")):
+    with doc.create(Section("Introduction",label="introduction")):
         doc.append(NoEscape(open('doc/sections/introduction.txt').read()))
 
-    with doc.create(Section("sample study")) as section:
+    with doc.create(Section("sample study",label="samplestudy")) as section:
         doc.append(NoEscape(open('doc/sections/sample_study.txt').read()))
     
-        with section.create(Subsection("Centrifugal Barrel Polishing")):
+        with section.create(Subsection("Centrifugal Barrel Polishing",label="centrifugalbarrelpolishing")):
             section.append(NoEscape(open('doc/sections/centrifugal_barrel_polishing.txt').read()))
     
-        with section.create(Subsection("Coupon Cavity")):
+        with section.create(Subsection("Coupon Cavity", label="couponcavity")):
             section.append(NoEscape(open('doc/sections/coupon_cavity.txt').read()))
             
             with section.create(Figure(position='htb')) as fig:
@@ -125,7 +125,7 @@ if __name__ == '__main__':
                 fig.add_image('../doc/figs/VTS_Test_Graph.png',width=NoEscape(r'0.5\textwidth'))
                 fig.add_caption(NoEscape(
                     r"The RF performance of the Nb\textsubscript{3}Sn-coated SRF cavity before and after mechanically polished and after a re-coating treatment."))
-                fig.append(Label(Marker('samplesurfacedamagelayer',prefix='fig')))
+                fig.append(Label(Marker('vtstestgraph',prefix='fig')))
 
 
     with doc.create(Section("Discussion")):

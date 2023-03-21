@@ -1,1 +1,0 @@
-The RF performance of the Nb\textsubscript{3}Sn-coated cavity was tested three times; first, in the as-coated state with no polishing applied; second, after the CBP treatment; lastly, after the re-coating procedure. The performance was tested using the vertical test stand (VTS) at FNAL\cite{pischalnikov2014rf}.

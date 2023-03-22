@@ -1,10 +1,6 @@
 This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: doc.aux
-White space in argument---line 47 of file doc.aux
- : \citation{citation
- :                    needed}
-I'm skipping whatever remains of this command
 The style file: apsrev4-2.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -17,7 +13,6 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: docNotes.bib
 Database file #2: bib.bib
-Warning--I didn't find a database entry for "pudasainipost"
 control{REVTEX42Control}, control.key{N/A}, control.author{N/A}, control.editor{N/A}, control.title{N/A}, control.pages{N/A}, control.year{N/A}, control.eprint{N/A}, 
 control{apsrev42Control}, control.key{N/A}, control.author{08}, control.editor{1}, control.title{0}, control.pages{0}, control.year{1}, control.eprint{N/A}, 
 Warning--jnrlst (dependency: not reversed) set 1
@@ -111,45 +106,45 @@ while executing---line 3515 of file apsrev4-2.bst
 ---they aren't the same literal types for entry pischalnikov2014rf
 while executing---line 3515 of file apsrev4-2.bst
 Warning--missing journal in pischalnikov2014rf
-You've used 14 entries,
+You've used 15 entries,
             6079 wiz_defined-function locations,
-            1702 strings with 17920 characters,
-and the built_in function-call counts, 15968 in all, are:
-= -- 930
-> -- 506
-< -- 115
-+ -- 154
-- -- 142
-* -- 2546
-:= -- 1428
-add.period$ -- 12
-call.type$ -- 14
-change.case$ -- 60
-chr.to.int$ -- 24
-cite$ -- 16
-duplicate$ -- 1514
-empty$ -- 1111
-format.name$ -- 282
-if$ -- 3191
+            1708 strings with 18143 characters,
+and the built_in function-call counts, 17085 in all, are:
+= -- 1004
+> -- 540
+< -- 121
++ -- 164
+- -- 150
+* -- 2724
+:= -- 1531
+add.period$ -- 13
+call.type$ -- 15
+change.case$ -- 65
+chr.to.int$ -- 25
+cite$ -- 17
+duplicate$ -- 1618
+empty$ -- 1191
+format.name$ -- 301
+if$ -- 3418
 int.to.chr$ -- 1
-int.to.str$ -- 21
-missing$ -- 228
-newline$ -- 88
-num.names$ -- 36
-pop$ -- 615
+int.to.str$ -- 22
+missing$ -- 244
+newline$ -- 91
+num.names$ -- 39
+pop$ -- 658
 preamble$ -- 1
-purify$ -- 60
+purify$ -- 65
 quote$ -- 0
-skip$ -- 617
+skip$ -- 663
 stack$ -- 0
-substring$ -- 322
-swap$ -- 1461
-text.length$ -- 60
+substring$ -- 339
+swap$ -- 1562
+text.length$ -- 64
 text.prefix$ -- 0
 top$ -- 10
-type$ -- 205
+type$ -- 220
 warning$ -- 3
-while$ -- 44
+while$ -- 47
 width$ -- 0
-write$ -- 151
-(There were 27 error messages)
+write$ -- 159
+(There were 26 error messages)

@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2023.3.12)  21 MAR 2023 18:09
+This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2023.3.12)  21 MAR 2023 19:47
  restricted system commands enabled.
 **doc.tex
 (./doc.tex
@@ -216,23 +216,75 @@ LaTeX Info: Redefining \REV@mathfrak on input line 128.
 )
 luaotfload | db : Font names database loaded from /home/viklund/.texlive2021/tex
 mf-var/luatex-cache/generic/names/luaotfload-names.luc)
+(/usr/share/texlive/texmf-dist/tex/latex/unicode-math/unicode-math.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2022-01-21 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
+File: l3backend-luatex.def 2022-01-12 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count277
+\l__pdf_internal_box=\box67
+))
+Package: unicode-math 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/unicode-math/unicode-math-luatex.sty
+Package: unicode-math-luatex 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaL
+aTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2022-01-12 L3 Experimental document command parser
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
+Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2022/01/15 2.8a Font selection for XeLaTeX and LuaLaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+Package: fontspec-luatex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaT
+eX
+\l__fontspec_script_int=\count278
+\l__fontspec_language_int=\count279
+\l__fontspec_strnum_int=\count280
+\l__fontspec_tmp_int=\count281
+\l__fontspec_tmpa_int=\count282
+\l__fontspec_tmpb_int=\count283
+\l__fontspec_tmpc_int=\count284
+\l__fontspec_em_int=\count285
+\l__fontspec_emdef_int=\count286
+\l__fontspec_strong_int=\count287
+\l__fontspec_strongdef_int=\count288
+\l__fontspec_tmpa_dim=\dimen146
+\l__fontspec_tmpb_dim=\dimen147
+\l__fontspec_tmpc_dim=\dimen148
+
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
-2.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/share/texlive/texmf-dist/tex/latex/base/fix-cm.sty
+Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
 
-(/usr/share/texmf/tex/latex/lm/t1lmr.fd
-File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks24
-\inpenc@posthook=\toks25
+(/usr/share/texlive/texmf-dist/tex/lualatex/lualatex-math/lualatex-math.sty
+Package: lualatex-math 2022/01/01 v1.12 Patches for mathematics typesetting wit
+h LuaLaTeX
 
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count289
+)
+Lua module: lualatex-math 2013/08/03 1.3 Patches for mathematics typesetting wit
+h LuaLaTeX)
+\g__um_fam_int=\count290
+\g__um_fonts_used_int=\count291
+\l__um_primecount_int=\count292
+\g__um_primekern_muskip=\muskip18
 
-Package inputenc Warning: inputenc package ignored with utf8 based engines.
-
-) (/usr/share/texmf/tex/latex/lm/lmodern.sty
+(/usr/share/texlive/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex))) (/usr/share/texmf/tex/latex/lm/lmodern.sty
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -278,7 +330,7 @@ Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks26
+\KV@toks@=\toks24
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
@@ -294,60 +346,362 @@ Package graphics Info: Driver file: luatex.def on input line 107.
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/luatex.def
 File: luatex.def 2021/06/01 v1.2c Graphics/color driver for luatex
 ))
-\Gin@req@height=\dimen146
-\Gin@req@width=\dimen147
+\Gin@req@height=\dimen149
+\Gin@req@width=\dimen150
 )
-Class revtex4-2 Info: Unrecognized LaTeX tabular. Please update this document c
-lass! (Proceeding with fingers crossed.) on input line 11.
-Class revtex4-2 Info: cite was not loaded (OK!) on input line 11.
-Class revtex4-2 Info: mcite was not loaded (OK!) on input line 11.
-Class revtex4-2 Info: multicol was not loaded (OK!) on input line 11.
+(/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2022-02-02 v3.0.46 A comprehensive (SI) units package
+\l__siunitx_angle_tmp_dim=\dimen151
+\l__siunitx_angle_marker_box=\box68
+\l__siunitx_angle_unit_box=\box69
+\l__siunitx_compound_count_int=\count293
 
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
-File: l3backend-luatex.def 2022-01-12 L3 backend support: PDF output (LuaTeX)
-\l__color_backend_stack_int=\count277
-\l__pdf_internal_box=\box67
+(/usr/share/texlive/texmf-dist/tex/latex/translations/translations.sty
+Package: translations 2022/01/04 v1.11 internationalization of LaTeX2e packages
+ (CN)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
-(./doc.aux)
+
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks25
+))
+\l__siunitx_number_exponent_fixed_int=\count294
+\l__siunitx_number_min_decimal_int=\count295
+\l__siunitx_number_min_integer_int=\count296
+\l__siunitx_number_round_precision_int=\count297
+\l__siunitx_number_group_minimum_int=\count298
+\l__siunitx_table_tmp_box=\box70
+\l__siunitx_table_tmp_dim=\dimen152
+\l__siunitx_table_column_width_dim=\dimen153
+\l__siunitx_table_integer_box=\box71
+\l__siunitx_table_decimal_box=\box72
+\l__siunitx_table_before_box=\box73
+\l__siunitx_table_after_box=\box74
+\l__siunitx_table_before_dim=\dimen154
+\l__siunitx_table_carry_dim=\dimen155
+\l__siunitx_unit_tmp_int=\count299
+\l__siunitx_unit_position_int=\count300
+\l__siunitx_unit_total_int=\count301
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen156
+\ar@mcellbox=\box75
+\extrarowheight=\dimen157
+\NC@list=\toks26
+\extratabsurround=\skip54
+\backup@length=\skip55
+\ar@cellbox=\box76
+))
+Class revtex4-2 Info: Unrecognized array package. Please update this document c
+lass! (Proceeding with fingers crossed.) on input line 10.
+Class revtex4-2 Info: cite was not loaded (OK!) on input line 10.
+Class revtex4-2 Info: mcite was not loaded (OK!) on input line 10.
+Class revtex4-2 Info: multicol was not loaded (OK!) on input line 10.
+Package translations Info: No language package found. I am going to use `englis
+h' as default language. on input line 10.
+ (./doc.aux)
 \openout1 = doc.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-1.
- (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
-File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 10.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 10.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 10.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 10.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 10.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 10.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 10.
+
+Package fontspec Info: Font family 'latinmodern-math.otf(0)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Renderer=Basic,BoldItalicFont={},ItalicFont={},SmallCap
+sFont={},Script=Math,FontAdjustment={\__um_luatex_copy_fontdimens:
+(fontspec)             },BoldFont={latinmodern-math.otf}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[latinmodern-math.otf]:mode=base;script=math;languag
+e=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \__um_luatex_copy_fontdimens: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[latinmodern-math.otf]:mode=base;script=math;languag
+e=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \__um_luatex_copy_fontdimens: 
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(1)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Renderer=Basic,BoldItalicFont={},ItalicFont={},SmallCap
+sFont={},Script=Math,SizeFeatures={{Size=8.5-},{Size=6-8.5,Font=latinmodern-mat
+h.otf,Style=MathScript},{Size=-6,Font=latinmodern-math.otf,Style=MathScriptScri
+pt}},FontAdjustment={\__um_luatex_copy_fontdimens:
+(fontspec)             },BoldFont={latinmodern-math.otf}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <8.5->"[latinmodern-math.otf]:mode=base;script=math;lang
+uage=dflt;"<6-8.5>"[latinmodern-math.otf]:mode=base;script=math;language=dflt;+
+ssty=0;"<-6>"[latinmodern-math.otf]:mode=base;script=math;language=dflt;+ssty=1
+;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \__um_luatex_copy_fontdimens: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[latinmodern-math.otf]:mode=base;script=math;languag
+e=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \__um_luatex_copy_fontdimens: 
+
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 10.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input
+ line 10.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 10.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on inpu
+t line 10.
+
+Package fontspec Info: latinmodern-math scale = 1.0001.
+
+
+Package fontspec Info: latinmodern-math scale = 1.0001.
+
+
+Package fontspec Info: latinmodern-math scale = 1.0001.
+
+
+Package fontspec Info: latinmodern-math scale = 1.0001.
+
+
+Package fontspec Info: latinmodern-math scale = 1.0001.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(2)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Renderer=Basic,BoldItalicFont={},ItalicFont={},SmallCap
+sFont={},Script=Math,SizeFeatures={{Size=8.5-},{Size=6-8.5,Font=latinmodern-mat
+h.otf,Style=MathScript},{Size=-6,Font=latinmodern-math.otf,Style=MathScriptScri
+pt}},FontAdjustment={\__um_luatex_copy_fontdimens:
+(fontspec)             },BoldFont={latinmodern-math.otf},ScaleAgain=1.0001,Font
+Adjustment={\fontdimen
+(fontspec)             8\font =6.76999pt\relax \fontdimen 9\font
+(fontspec)             =3.93999pt\relax \fontdimen 10\font =4.43999pt\relax
+(fontspec)             \fontdimen 11\font =6.85999pt\relax \fontdimen 12\font
+(fontspec)             =3.45pt\relax \fontdimen 13\font =3.62999pt\relax
+(fontspec)             \fontdimen 14\font =3.62999pt\relax \fontdimen 15\font
+(fontspec)             =2.89pt\relax \fontdimen 16\font =2.46999pt\relax
+(fontspec)             \fontdimen 17\font =2.46999pt\relax \fontdimen 18\font
+(fontspec)             =2.5pt\relax \fontdimen 19\font =2.0pt\relax \fontdimen
+(fontspec)             22\font =2.5pt\relax \fontdimen 20\font =0pt\relax
+(fontspec)             \fontdimen 21\font =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <8.5->s*[1.0001]"[latinmodern-math.otf]:mode=base;script
+=math;language=dflt;"<6-8.5>s*[1.0001]"[latinmodern-math.otf]:mode=base;script=
+math;language=dflt;+ssty=0;"<-6>s*[1.0001]"[latinmodern-math.otf]:mode=base;scr
+ipt=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \__um_luatex_copy_fontdimens: \fontdimen 8\font
+(fontspec)             =6.76999pt\relax \fontdimen 9\font =3.93999pt\relax
+(fontspec)             \fontdimen 10\font =4.43999pt\relax \fontdimen 11\font
+(fontspec)             =6.85999pt\relax \fontdimen 12\font =3.45pt\relax
+(fontspec)             \fontdimen 13\font =3.62999pt\relax \fontdimen 14\font
+(fontspec)             =3.62999pt\relax \fontdimen 15\font =2.89pt\relax
+(fontspec)             \fontdimen 16\font =2.46999pt\relax \fontdimen 17\font
+(fontspec)             =2.46999pt\relax \fontdimen 18\font =2.5pt\relax
+(fontspec)             \fontdimen 19\font =2.0pt\relax \fontdimen 22\font
+(fontspec)             =2.5pt\relax \fontdimen 20\font =0pt\relax \fontdimen
+(fontspec)             21\font =0pt\relax 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1.0001]"[latinmodern-math.otf]:mode=base;script=ma
+th;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \__um_luatex_copy_fontdimens: \fontdimen 8\font
+(fontspec)             =6.76999pt\relax \fontdimen 9\font =3.93999pt\relax
+(fontspec)             \fontdimen 10\font =4.43999pt\relax \fontdimen 11\font
+(fontspec)             =6.85999pt\relax \fontdimen 12\font =3.45pt\relax
+(fontspec)             \fontdimen 13\font =3.62999pt\relax \fontdimen 14\font
+(fontspec)             =3.62999pt\relax \fontdimen 15\font =2.89pt\relax
+(fontspec)             \fontdimen 16\font =2.46999pt\relax \fontdimen 17\font
+(fontspec)             =2.46999pt\relax \fontdimen 18\font =2.5pt\relax
+(fontspec)             \fontdimen 19\font =2.0pt\relax \fontdimen 22\font
+(fontspec)             =2.5pt\relax \fontdimen 20\font =0pt\relax \fontdimen
+(fontspec)             21\font =0pt\relax 
+
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 10.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on inpu
+t line 10.
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 10.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on inpu
+t line 10.
+
+Package fontspec Info: latinmodern-math scale = 0.9999.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(3)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Renderer=Basic,BoldItalicFont={},ItalicFont={},SmallCap
+sFont={},Script=Math,SizeFeatures={{Size=8.5-},{Size=6-8.5,Font=latinmodern-mat
+h.otf,Style=MathScript},{Size=-6,Font=latinmodern-math.otf,Style=MathScriptScri
+pt}},FontAdjustment={\__um_luatex_copy_fontdimens:
+(fontspec)             },BoldFont={latinmodern-math.otf},ScaleAgain=0.9999,Font
+Adjustment={\fontdimen
+(fontspec)             8\font =0.4pt\relax \fontdimen 9\font =2.0pt\relax
+(fontspec)             \fontdimen 10\font =1.67pt\relax \fontdimen 11\font
+(fontspec)             =1.10999pt\relax \fontdimen 12\font =6.0pt\relax
+(fontspec)             \fontdimen 13\font =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <8.5->s*[0.9999]"[latinmodern-math.otf]:mode=base;script
+=math;language=dflt;"<6-8.5>s*[0.9999]"[latinmodern-math.otf]:mode=base;script=
+math;language=dflt;+ssty=0;"<-6>s*[0.9999]"[latinmodern-math.otf]:mode=base;scr
+ipt=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \__um_luatex_copy_fontdimens: \fontdimen 8\font
+(fontspec)             =0.4pt\relax \fontdimen 9\font =2.0pt\relax \fontdimen
+(fontspec)             10\font =1.67pt\relax \fontdimen 11\font
+(fontspec)             =1.10999pt\relax \fontdimen 12\font =6.0pt\relax
+(fontspec)             \fontdimen 13\font =0pt\relax 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9999]"[latinmodern-math.otf]:mode=base;script=ma
+th;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \__um_luatex_copy_fontdimens: \fontdimen 8\font
+(fontspec)             =0.4pt\relax \fontdimen 9\font =2.0pt\relax \fontdimen
+(fontspec)             10\font =1.67pt\relax \fontdimen 11\font
+(fontspec)             =1.10999pt\relax \fontdimen 12\font =6.0pt\relax
+(fontspec)             \fontdimen 13\font =0pt\relax 
+
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 1
+0.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on inpu
+t line 10.
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 10.
+
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on inpu
+t line 10.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+0.
+
+(/usr/share/texmf/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 10.00107pt on input line 10.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 7.00075pt on input line 10.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.00053pt on input line 10.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 9.99893pt on input line 10.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 6.99925pt on input line 10.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 4.99947pt on input line 10.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 10.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 11.
+(lastpage)             ! on input line 10.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count278
-\scratchdimen=\dimen148
-\scratchbox=\box68
-\nofMPsegments=\count279
-\nofMParguments=\count280
+\scratchcounter=\count302
+\scratchdimen=\dimen158
+\scratchbox=\box77
+\nofMPsegments=\count303
+\nofMParguments=\count304
 \everyMPshowfont=\toks27
-\MPscratchCnt=\count281
-\MPscratchDim=\dimen149
-\MPnumerator=\count282
-\makeMPintoPDFobject=\count283
+\MPscratchCnt=\count305
+\MPscratchDim=\dimen159
+\MPnumerator=\count306
+\makeMPintoPDFobject=\count307
 \everyMPtoPDFconversion=\toks28
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -358,206 +712,134 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2021/12/07 v1.3c Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: luatex.def on input line 149.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
+nary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `tra
+nslations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `english'. on input line 10.
+
 \openout3 = docNotes.bib
-
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
-6.
-
-(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-6.
-
-(/usr/share/texmf/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-26.
-
-(/usr/share/texmf/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-26.
-
-(/usr/share/texmf/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 26.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 26.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 26.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 26.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 26.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 30.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 30.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 36.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 36.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 9.00096pt on input line 25.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 6.00064pt on input line 25.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 8.99904pt on input line 25.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 5.99936pt on input line 25.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 12.00128pt on input line 29.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 8.00085pt on input line 29.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 11.99872pt on input line 29.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 7.99915pt on input line 29.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 <../doc/figs/Coupon_Cavity.png, id=14, 244.72429pt x 227.6505pt>
 File: ../doc/figs/Coupon_Cavity.png Graphic file (type png)
 <use ../doc/figs/Coupon_Cavity.png>
-Package luatex.def Info: ../doc/figs/Coupon_Cavity.png  used on input line 74.
-(luatex.def)             Requested size: 255.0pt x 237.21292pt.
-
-Overfull \hbox (9.0pt too wide) in paragraph at lines 74--75
- [][] 
- []
+Package luatex.def Info: ../doc/figs/Coupon_Cavity.png  used on input line 73.
+(luatex.def)             Requested size: 246.0pt x 228.84138pt.
 
 [2<../doc/figs/Coupon_Cavity.png>]
 <../doc/figs/Optical_Surface_Profiles.png, id=20, 221.98935pt x 569.0058pt>
 File: ../doc/figs/Optical_Surface_Profiles.png Graphic file (type png)
 <use ../doc/figs/Optical_Surface_Profiles.png>
 Package luatex.def Info: ../doc/figs/Optical_Surface_Profiles.png  used on inpu
-t line 103.
-(luatex.def)             Requested size: 153.00156pt x 392.18031pt.
+t line 102.
+(luatex.def)             Requested size: 196.80075pt x 504.45137pt.
 <../doc/figs/Surface_Roughness_Graph.png, id=21, 257.82323pt x 431.51213pt>
 File: ../doc/figs/Surface_Roughness_Graph.png Graphic file (type png)
 <use ../doc/figs/Surface_Roughness_Graph.png>
 Package luatex.def Info: ../doc/figs/Surface_Roughness_Graph.png  used on input
- line 113.
-(luatex.def)             Requested size: 255.0pt x 426.80325pt.
-
-Overfull \hbox (9.0pt too wide) in paragraph at lines 113--114
- [][] 
- []
-
+ line 112.
+(luatex.def)             Requested size: 246.0pt x 411.7383pt.
 <../doc/figs/Material_Removal_Graph.png, id=22, 241.02045pt x 220.48372pt>
 File: ../doc/figs/Material_Removal_Graph.png Graphic file (type png)
 <use ../doc/figs/Material_Removal_Graph.png>
 Package luatex.def Info: ../doc/figs/Material_Removal_Graph.png  used on input 
-line 123.
-(luatex.def)             Requested size: 255.0pt x 233.27426pt.
-
-Overfull \hbox (9.0pt too wide) in paragraph at lines 123--124
- [][] 
- []
-
+line 122.
+(luatex.def)             Requested size: 246.0pt x 225.0418pt.
 <../doc/figs/SEM_Images.png, id=23, 227.6505pt x 162.1257pt>
 File: ../doc/figs/SEM_Images.png Graphic file (type png)
 <use ../doc/figs/SEM_Images.png>
-Package luatex.def Info: ../doc/figs/SEM_Images.png  used on input line 133.
-(luatex.def)             Requested size: 255.0pt x 181.60922pt.
-
-Overfull \hbox (9.0pt too wide) in paragraph at lines 133--134
- [][] 
- []
-
+Package luatex.def Info: ../doc/figs/SEM_Images.png  used on input line 132.
+(luatex.def)             Requested size: 246.0pt x 175.19952pt.
 <../doc/figs/Sample_Surface_Scratches.png, id=24, 244.63396pt x 345.6915pt>
 File: ../doc/figs/Sample_Surface_Scratches.png Graphic file (type png)
 <use ../doc/figs/Sample_Surface_Scratches.png>
 Package luatex.def Info: ../doc/figs/Sample_Surface_Scratches.png  used on inpu
-t line 143.
-(luatex.def)             Requested size: 255.0pt x 360.34937pt.
-
-Overfull \hbox (9.0pt too wide) in paragraph at lines 143--144
- [][] 
- []
-
+t line 142.
+(luatex.def)             Requested size: 246.0pt x 347.63177pt.
 <../doc/figs/Sample_Surface_Damage_Layer.png, id=25, 244.63396pt x 244.63396pt>
 
 File: ../doc/figs/Sample_Surface_Damage_Layer.png Graphic file (type png)
 <use ../doc/figs/Sample_Surface_Damage_Layer.png>
 Package luatex.def Info: ../doc/figs/Sample_Surface_Damage_Layer.png  used on i
-nput line 153.
-(luatex.def)             Requested size: 255.0pt x 255.00682pt.
-
-Overfull \hbox (9.0pt too wide) in paragraph at lines 153--154
- [][] 
- []
-
-[3<../doc/figs/Optical_Surface_Profiles.png>]
+nput line 152.
+(luatex.def)             Requested size: 246.0pt x 246.00702pt.
+ [3<../doc/figs/Optical_Surface_Profiles.png>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 162.
-
-
-LaTeX Warning: Reference `sec:nb3sncoating' on page 4 undefined on input line 1
-69.
+ on input line 161.
 
 [4<../doc/figs/Surface_Roughness_Graph.png><../doc/figs/Material_Removal_Graph.p
 ng><../doc/figs/SEM_Images.png>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 170.
+ on input line 167.
 
 <../doc/figs/VTS_Test_Graph.png, id=36, 237.40695pt x 334.18852pt>
 File: ../doc/figs/VTS_Test_Graph.png Graphic file (type png)
 <use ../doc/figs/VTS_Test_Graph.png>
-Package luatex.def Info: ../doc/figs/VTS_Test_Graph.png  used on input line 187
+Package luatex.def Info: ../doc/figs/VTS_Test_Graph.png  used on input line 186
 .
-(luatex.def)             Requested size: 255.0pt x 358.94989pt.
-
-Overfull \hbox (9.0pt too wide) in paragraph at lines 187--188
- [][] 
- []
-
-
-Package natbib Warning: Citation `pudasainipost' on page 5 undefined on input l
-ine 195.
-
-
-Package natbib Warning: Citation `citation needed' on page 5 undefined on input
- line 197.
-
+(luatex.def)             Requested size: 246.0pt x 346.28323pt.
 [5<../doc/figs/Sample_Surface_Scratches.png><../doc/figs/Sample_Surface_Damage_L
 ayer.png>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 198.
+ on input line 197.
 
 (./doc.bbl [6<../doc/figs/VTS_Test_Graph.png>])
 
-Package natbib Warning: There were undefined citations.
-
-
 AED: lastpage setting LastPage
-[7
-Missing character: There is no … (U+2026) in font ec-lmr9!
-] (./doc.aux)
-
-LaTeX Warning: There were undefined references.
-
-)
+[7] (./doc.aux))
 
 Here is how much of LuaTeX's memory you used:
- 5462 strings out of 477805
- 195342,460012 words of node,token memory allocated
- 541 words of node memory still in use:
-   10 hlist, 2 vlist, 2 rule, 1 glue, 4 kern, 1 glyph, 10 attribute, 55 glue_spe
+ 15695 strings out of 477805
+ 195347,794899 words of node,token memory allocated
+ 551 words of node memory still in use:
+   10 hlist, 2 vlist, 2 rule, 1 glue, 4 kern, 1 glyph, 10 attribute, 57 glue_spe
 c, 10 attribute_list nodes
-   avail lists: 1:2,2:569,3:538,4:26,5:905,6:48,7:18478,8:2,9:477,10:20,11:1536
- 25889 multiletter control sequences out of 65536+600000
- 62 fonts using 4013615 bytes
- 69i,6n,72p,1272b,362s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/pub
-lic/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share
-/texmf/fonts/type1/public/lm/lmbx6.pfb></usr/share/texmf/fonts/type1/public/lm/l
-mbx8.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx9.pfb></usr/share/texmf/fon
-ts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></
-usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/pub
-lic/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri9.pfb>
-Output written on doc.pdf (7 pages, 27437142 bytes).
+   avail lists: 1:1,2:608,3:566,4:104,5:937,6:52,7:18982,8:8,9:501,10:20,11:1584
 
-PDF statistics: 83 PDF objects out of 1000 (max. 8388607)
- 47 compressed objects within 1 object stream
+ 35967 multiletter control sequences out of 65536+600000
+ 71 fonts using 21944959 bytes
+ 87i,6n,115p,1272b,440s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf/fonts/opentype/public/lm/lmroman6-bold.otf></usr/share/texmf/f
+onts/opentype/public/lm/lmroman7-regular.otf></usr/share/texmf/fonts/opentype/pu
+blic/lm/lmroman9-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman6-re
+gular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman9-regular.otf></usr/
+share/texmf/fonts/opentype/public/lm/lmroman9-italic.otf></usr/share/texmf/fonts
+/opentype/public/lm/lmroman10-regular.otf></usr/share/texmf/fonts/opentype/publi
+c/lm/lmroman8-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman12-bold
+.otf>
+Output written on doc.pdf (7 pages, 27247688 bytes).
+
+PDF statistics: 105 PDF objects out of 1000 (max. 8388607)
+ 52 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 

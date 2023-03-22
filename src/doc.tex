@@ -1,11 +1,10 @@
 \documentclass[reprint,amsmath,amssymb,aps]{revtex4-2}%
-\usepackage[T1]{fontenc}%
-\usepackage[utf8]{inputenc}%
+\usepackage{unicode-math}
 \usepackage{lmodern}%
 \usepackage{textcomp}%
 \usepackage{lastpage}%
 \usepackage{graphicx}%
-%
+\usepackage{siunitx}%
 %
 %
 \begin{document}%
@@ -35,7 +34,7 @@ Superconducting radiofrequency (SRF) cavities are an essential component of part
 
 The performance of superconducting radio-frequency cavities is determined by the superconducting properties of the surface layer of the cavity. The low-temperature superconductor Nb\textsubscript{3}Sn has a higher superconducting transition temperature (T\textsubscript{c}), 18~K compared to 9~K, and a higher super-heating magnetic field (H\textsubscript{sh}), around 440 mT compared to 250~mT for the more commonly used niobium\cite{liarte2017theoretical}. SRF cavities coated with a layer of Nb\textsubscript{3}Sn can, therefore, achieve a much higher accelerating field, up to 100~MV/m in theory, and have a lower surface resistance than niobium SRF cavities at higher temperatures allowing for cavity operation at 4~K instead of the standard 2~K operating temperature. These properties make Nb\textsubscript{3}Sn SRF cavities are a promising research topic for future accelerators such as high-energy linacs or small-scale industrial accelerators.
 
-Nb\textsubscript{3}Sn cavities are typically manufactured by coating a Nb cavity with a thin film of Nb\textsubscript{3}Sn using tin vapor-diffusion, exposing a niobium cavity to tin vapor at 1,100~°C to create Nb\textsubscript{3}Sn. The reaction forms a 2-3~µm thick Nb\textsubscript{3}Sn film with grains approximately 1~µm large. The grains are faceted, and the grain boundaries are thermally etched, which results in approximately 100-150~nm of surface roughness. 
+Nb\textsubscript{3}Sn cavities are typically manufactured by coating a Nb cavity with a thin film of Nb\textsubscript{3}Sn using tin vapor-diffusion, exposing a niobium cavity to tin vapor at 1,100~°C to create Nb\textsubscript{3}Sn. The reaction forms a 2-3~µm thick Nb\textsubscript{3}Sn film with grains approximately 1~\si{\micro\meter} large. The grains are faceted, and the grain boundaries are thermally etched, which results in approximately 100-150~nm of surface roughness. 
 
 Using the Sn vapor-diffusion coating technique, Nb\textsubscript{3}Sn cavities have only been able to reach a maximum accelerating gradient of 24~MV/m\cite{posen2021advances}, a result that was achieved using a thinner Nb\textsubscript{3}Sn coating which is smoother than the typical coating. However, this result has not been reproducible and is still short of the theoretical maximum accelerating gradient of Nb\textsubscript{3}Sn cavities.
 
@@ -54,54 +53,54 @@ Since Nb\textsubscript{3}Sn is a relatively unexplored material, there are no es
 %
 \subsection{Centrifugal Barrel Polishing}%
 \label{subsec:CentrifugalBarrelPolishing}%
-Centrifugal Barrel Polishing (CBP) is a technique that was developed by Cooper and Cooley\cite{cooper2012mirror} as a method of polishing niobium cavities without using toxic chemicals such as HF. The technique uses a custom built tumbling machine that can fit up to 9-cell size cavities. When a cavity is mounted in the tumbling machine and filled with abrasive slurry, the rotating motion of the cavity accelerates the polishing media against the cavity surface with up to 6 g of force. 
+Centrifugal Barrel Polishing (CBP) is a technique that was developed by Cooper and Cooley\cite{cooper2012mirror} as a method of polishing niobium cavities without using toxic chemicals such as HF. The technique uses a custom built tumbling machine that can fit up to 9-cell size cavities. When a cavity is mounted in the tumbling machine and filled with abrasive slurry, the rotating motion of the cavity accelerates the polishing media against the cavity surface with up to 6~g of force. 
 
 The abrasive material used determines the removal rate and minimum surface roughness attainable using CBP. Large-grit material is used to remove material quickly and smooth out large defects like pits and scratches while fine-grit material is used to microscopically smooth the surface. The removal rate of different abrasive materials has been studied by Palczewski, et. al.\cite{palczewski2013exploration}
 
-Since the roughness of as-coated Nb\textsubscript{3}Sn cavities is on the order of 100-200 nm, our experiments focus on using fine-grit materials. In this experiment, we use a colloidal nano-particle suspension as our abrasive material. 50 nm diameter alumina and 40 nm diameter silica nano-particles suspended in water were tested, but we found no discernible difference between the two materials.
+Since the roughness of as-coated Nb\textsubscript{3}Sn cavities is on the order of 100-200~nm, our experiments focus on using fine-grit materials. In this experiment, we use a colloidal nano-particle suspension as our abrasive material. 50~nm diameter alumina and 40~nm diameter silica nano-particles suspended in water were tested, but we found no discernible difference between the two materials.
 
-The nano-particle suspension was mixed with a large, soft material to act as a carrier. The purpose of the carrier material is to carry the nano-particles and to apply a force between them and the cavity surface. Two carrier materials were tested, 13 mm diameter wooden balls and 25 mm felt cubes.
+The nano-particle suspension was mixed with a large, soft material to act as a carrier. The purpose of the carrier material is to carry the nano-particles and to apply a force between them and the cavity surface. Two carrier materials were tested, 13~mm diameter wooden balls and 25~mm felt cubes.
 
 %
 \subsection{Coupon Cavity}%
 \label{subsec:couponcavity}%
-To test the centrifugal barrel polishing method on Nb\textsubscript{3}Sn samples in a realistic environment, we use a coupon cavity. This cavity has multiple ports where samples can be mounted. The samples sit flush with the inside surface of the coupon cavity, as is shown in Fig.\ref{fig:couponcavity}, where they experience identical polishing conditions to a real cavity surface. This allows for sample experiments that are representative of the final cavity polishing process. Using this method we can inspect the Nb\textsubscript{3}Sn surface after polishing under a microscope to determine the best polishing parameters.
+To test the centrifugal barrel polishing method on Nb\textsubscript{3}Sn samples in a realistic environment, we use a coupon cavity. This cavity has multiple ports where samples can be mounted. The samples sit flush with the inside surface of the coupon cavity, as is shown in Fig.~\ref{fig:couponcavity}, where they experience identical polishing conditions to a real cavity surface. This allows for sample experiments that are representative of the final cavity polishing process. Using this method we can inspect the Nb\textsubscript{3}Sn surface after polishing under a microscope to determine the best polishing parameters.
 %
 
 
 \begin{figure}[htb]%
 \centering%
-\includegraphics[width=0.5\textwidth]{../doc/figs/Coupon_Cavity.png}%
-\caption{(A) A schematic of the coupon cavity and the sample holder used to polish the Nb\textsubscript{3}Sn coated samples. The sample holder can hold 1 cm diameter disks by clamping the sides of the sample with set screws. (B) Pictures of the sample holder sitting outside the coupon cavity and with a sample mounted as seen from the inside of the coupon cavity.}%
+\includegraphics[width=\columnwidth]{../doc/figs/Coupon_Cavity.png}%
+\caption{(A) A schematic of the coupon cavity and the sample holder used to polish the Nb\textsubscript{3}Sn coated samples. The sample holder can hold 1~cm diameter disks by clamping the sides of the sample with set screws. (B) Pictures of the sample holder sitting outside the coupon cavity and with a sample mounted as seen from the inside of the coupon cavity.}%
 \label{fig:couponcavity}%
 \end{figure}
 
 %
 \subsection{Nb\textsubscript{3}Sn Coating Using Tin Vapor-Diffusion}%
 \label{subsec:nb3sncoating}%
-The Nb\textsubscript{3}Sn samples and Nb\textsubscript{3}Sn cavity used in this study were coated at Fermilab in a high-vacuum furnace. The coatings were created at 1,100 °C with a Sn crucible acting as the Sn source as well as SnCl\textsubscript{2} acting as a nucleating agent. A detailed review of the coating system at Fermilab relays the specific operating details of the coating system\cite{posen2017nb3sn}.
+The Nb\textsubscript{3}Sn samples and Nb\textsubscript{3}Sn cavity used in this study were coated at Fermilab in a high-vacuum furnace. The coatings were created at 1,100~°C with a Sn crucible acting as the Sn source as well as SnCl\textsubscript{2} acting as a nucleating agent. A detailed review of the coating system at Fermilab relays the specific operating details of the coating system\cite{posen2017nb3sn}.
 
 %
 \subsection{Surface Analysis of Mechanically Polished Nb\textsubscript{3}Sn Coated Samples}%
 \label{subsec:sampleanalysis}%
-The Nb\textsubscript{3}Sn samples were polished for different lengths of time ranging from 2 to 8 hours using the wooden spheres or the felt cubes. A height map of the polished samples is shown in Fig.\ref{fig:opticalsurfaceprofiles}. The smoothness of the samples clearly improves as longer polishing is applied. 
+The Nb\textsubscript{3}Sn samples were polished for different lengths of time ranging from 2 to 8~hours using the wooden spheres or the felt cubes. A height map of the polished samples is shown in Fig.~\ref{fig:opticalsurfaceprofiles}. The smoothness of the samples clearly improves as longer polishing is applied. 
 
-By looking at the surface it is clear that material is preferentially removed from the highest point on the surface. This causes the sharp peaks on the surface to be removed quickly while valleys in the surface are left untouched. This is different from chemical polishing methods, which preferentially smooth areas with high curvature including both peaks and valleys. Due to this different smoothing mechanism, a completely smooth surface is attained after material is removed equal to the height difference between the highest and lowest point on the surface, which is around 1 µm. This is confirmed by the sample experiments, after 8 hours of polishing only the deepest valleys of the initial coating remain.
+By looking at the surface it is clear that material is preferentially removed from the highest point on the surface. This causes the sharp peaks on the surface to be removed quickly while valleys in the surface are left untouched. This is different from chemical polishing methods, which preferentially smooth areas with high curvature including both peaks and valleys. Due to this different smoothing mechanism, a completely smooth surface is attained after material is removed equal to the height difference between the highest and lowest point on the surface, which is around 1~µm. This is confirmed by the sample experiments, after 8~hours of polishing only the deepest valleys of the initial coating remain.
 
-The surface height maps are used to calculate the root mean square (RMS) surface roughness of the samples and is shown in Fig.\ref{fig:surfaceroughnessgraph}. After 6 hours of polishing the surface roughness is comparable to the surface roughness of the well performing, thinly coated Nb\textsubscript{3}Sn coatings created at FNAL\cite{posen2021advances}. After 8~hours of polishing, the surface roughness is comparable to a typical niobium surface after EP. This level of smoothness has never been achieved for Nb\textsubscript{3}Sn cavities. At this level of surface roughness, the performance degradation caused by field enhancement due to surface roughness should greatly reduced.
+The surface height maps are used to calculate the root mean square (RMS) surface roughness of the samples and is shown in Fig.~\ref{fig:surfaceroughnessgraph}. After 6~hours of polishing the surface roughness is comparable to the surface roughness of the well performing, thinly coated Nb\textsubscript{3}Sn coatings created at FNAL\cite{posen2021advances}. After 8~hours of polishing, the surface roughness is comparable to a typical niobium surface after EP. This level of smoothness has never been achieved for Nb\textsubscript{3}Sn cavities. At this level of surface roughness, the performance degradation caused by field enhancement due to surface roughness should greatly reduced.
 
 The thickness of the film is measured after polishing using FIB/SEM. Our measurements show that only a small amount of material is removed even after 8~hours of polishing. Samples polished using the felt media show an average removal rate of 170~nm/hour whereas the wooden media shows an average of 95~nm/hour removal rate. The starting thickness of the samples is between 3-3.5~µm. After 8 hours of polishing there is still over 1.5~µm of Nb\textsubscript{3}Sn left on the surface. To completely shield the niobium substrate from the RF fields only a few hundred nanometers of material are required, since the London penetration depth of Nb\textsubscript{3}Sn is \~100~nm\cite{liarte2017theoretical}.
 
 The surface of the polished samples was analyzed using SEM and TEM to look for surface damage or chemical changes on the surface caused by the tumbling or cleaning process.
 
-As seen in Fig.\ref{fig:samplesurfacescratches} and Fig.\ref{fig:samplesurfacedamagelayer}, the Nb\textsubscript{3}Sn samples polished using wooden spheres were damaged resulting in microscopic scratches on the surface and a damaged layer consisting of a nanometer-scale disordered Nb\textsubscript{3}Sn layer. No surface damage was detected on samples polished using the felt cubes. Since the surface damage may negatively affect the cavity performance, the felt cubes are best to use for polishing Nb\textsubscript{3}Sn.
+As seen in Fig.~\ref{fig:samplesurfacescratches} and Fig.~\ref{fig:samplesurfacedamagelayer}, the Nb\textsubscript{3}Sn samples polished using wooden spheres were damaged resulting in microscopic scratches on the surface and a damaged layer consisting of a nanometer-scale disordered Nb\textsubscript{3}Sn layer. No surface damage was detected on samples polished using the felt cubes. Since the surface damage may negatively affect the cavity performance, the felt cubes are best to use for polishing Nb\textsubscript{3}Sn.
 %
 
 
 \begin{figure}[t]%
 \centering%
-\includegraphics[width=0.3\textwidth]{../doc/figs/Optical_Surface_Profiles.png}%
-\caption{Surface height maps of Nb\textsubscript{3}Sn samples mechanically polished for different lengths of time ranging from 2 to 8 hours compared to the initial state of the Nb\textsubscript{3}Sn coating.}%
+\includegraphics[width=0.8\columnwidth]{../doc/figs/Optical_Surface_Profiles.png}%
+\caption{Surface height maps of Nb\textsubscript{3}Sn samples mechanically polished for different lengths of time ranging from 2 to 8~hours compared to the initial state of the Nb\textsubscript{3}Sn coating.}%
 \label{fig:opticalsurfaceprofiles}%
 \end{figure}
 
@@ -110,8 +109,8 @@ As seen in Fig.\ref{fig:samplesurfacescratches} and Fig.\ref{fig:samplesurfaceda
 
 \begin{figure}[t]%
 \centering%
-\includegraphics[width=0.5\textwidth]{../doc/figs/Surface_Roughness_Graph.png}%
-\caption{Surface roughness of Nb\textsubscript{3}Sn samples mechanically polished for different lengths of time calculated from the surface height maps (top). The power spectral density (PSD) of the surface profile after different amounts of tumbling as well as the PSD of electropolished Nb and a thinly coated Nb/textsubscript{3}Sn film.}%
+\includegraphics[width=\columnwidth]{../doc/figs/Surface_Roughness_Graph.png}%
+\caption{Surface roughness of Nb\textsubscript{3}Sn samples mechanically polished for different lengths of time calculated from the surface height maps (top). The power spectral density (PSD) of the surface profile after different amounts of tumbling as well as the PSD of electropolished Nb and a thinly coated Nb\textsubscript{3}Sn film.}%
 \label{fig:surfaceroughnessgraph}%
 \end{figure}
 
@@ -120,7 +119,7 @@ As seen in Fig.\ref{fig:samplesurfacescratches} and Fig.\ref{fig:samplesurfaceda
 
 \begin{figure}[t]%
 \centering%
-\includegraphics[width=0.5\textwidth]{../doc/figs/Material_Removal_Graph.png}%
+\includegraphics[width=\columnwidth]{../doc/figs/Material_Removal_Graph.png}%
 \caption{The thickness of the Nb\textsubscript{3}Sn film after mechanically polished for different lengths of time using felt cubes or wooden spheres as the polishing media.}%
 \label{fig:materialremovalgraph}%
 \end{figure}
@@ -130,8 +129,8 @@ As seen in Fig.\ref{fig:samplesurfacescratches} and Fig.\ref{fig:samplesurfaceda
 
 \begin{figure}[t]%
 \centering%
-\includegraphics[width=0.5\textwidth]{../doc/figs/SEM_Images.png}%
-\caption{SEM micrographs of a Nb\textsubscript{3}Sn a thin coated sample (A), standard coated sample (B), a sample after polishing for 2 hours (C), and a sample after polishing for 6 hours (D).}%
+\includegraphics[width=\columnwidth]{../doc/figs/SEM_Images.png}%
+\caption{SEM micrographs of a Nb\textsubscript{3}Sn a thin coated sample (A), standard coated sample (B), a sample after polishing for 2~hours (C), and a sample after polishing for 6~hours (D).}%
 \label{fig:semimages}%
 \end{figure}
 
@@ -140,7 +139,7 @@ As seen in Fig.\ref{fig:samplesurfacescratches} and Fig.\ref{fig:samplesurfaceda
 
 \begin{figure}[t]%
 \centering%
-\includegraphics[width=0.5\textwidth]{../doc/figs/Sample_Surface_Scratches.png}%
+\includegraphics[width=\columnwidth]{../doc/figs/Sample_Surface_Scratches.png}%
 \caption{SEM micrograph showing a Nb\textsubscript{3}Sn sample polished for 30 hours using wooden spheres and a colloidal abrasive suspension. Nb\textsubscript{3}Sn films polished using wooden spheres show microscopic scratches and cracks on the surface. A cross section of the surface shows that the cracks penetrate deep into the film.}%
 \label{fig:samplesurfacescratches}%
 \end{figure}
@@ -150,8 +149,8 @@ As seen in Fig.\ref{fig:samplesurfacescratches} and Fig.\ref{fig:samplesurfaceda
 
 \begin{figure}[t]%
 \centering%
-\includegraphics[width=0.5\textwidth]{../doc/figs/Sample_Surface_Damage_Layer.png}%
-\caption{TEM images of a Nb\textsubscript{3}Sn sample polished using wooden spheres. The polishing procedure creates a 10 nm thick layer of disordered Nb\textsubscript{3}Sn.}%
+\includegraphics[width=\columnwidth]{../doc/figs/Sample_Surface_Damage_Layer.png}%
+\caption{TEM images of a Nb\textsubscript{3}Sn sample polished using wooden spheres. The polishing procedure creates a 10~nm thick layer of disordered Nb\textsubscript{3}Sn.}%
 \label{fig:samplesurfacedamagelayer}%
 \end{figure}
 
@@ -166,7 +165,7 @@ Visual inspection of the cavity shows that the surface roughness was improved by
 \label{subsec:recoating}%
 After the Nb\textsubscript{3}Sn-coated cavity was polished using CBP, a secondary coating was applied, which we refer to as the re-coating procedure. The purpose of this coating is to repair any surface damage caused by CBP or any subsurface defects, such as tin-deficient regions, that may have been exposed.
 
-The re-coating procedure was performed at 1,000 °C. This lower temperature was chosen to minimize any thermal etching of the surface, which could increase the surface roughness. No SnCl\textsubscript{2} was used as it is unnecessary to nucleate any Nb\textsubscript{3}Sn grains. One third of the normal amount of tin was used during the coating, since no additional film growth is needed. The coating was performed at Fermilab using the coating furnace mentioned in Section\ref{subsec:nb3sncoating}.
+The re-coating procedure was performed at 1,000~°C. This lower temperature was chosen to minimize any thermal etching of the surface, which could increase the surface roughness. No SnCl\textsubscript{2} was used as it is unnecessary to nucleate any Nb\textsubscript{3}Sn grains. One third of the normal amount of tin was used during the coating, since no additional film growth is needed. The coating was performed at Fermilab using the coating furnace mentioned in Section~\ref{subsec:nb3sncoating}.
 
 %
 \subsection{SRF Cavity RF-Performance Testing}%
@@ -178,13 +177,13 @@ The RF performance of the Nb\textsubscript{3}Sn-coated cavity was tested three t
 \label{subsec:cavityresults}%
 The as-coated performance of the cavity was poor compared to most other Nb\textsubscript{3}Sn cavities reaching an accelerating gradient of around 10~MV/m with a Q of 10\textsuperscript{10} at 4.4~K. After the polishing is applied, the cavity exhibits Q-slope (the quality factor decreases with increasing accelerating field), and the maximum gradient was only 5~MV/m.
 
-After the cavity was treated with the re-coating treatment, detailed in Section\ref{subsec:recoating}, the Q-slope is ameliorated and the maximum accelerating gradient increases to 15~MV/m. The quality factor of the cavity was also improved over the as-coated state at 2.0~K, but not at 4.4~K. Fig.\ref{fig:vtstestgraph} shows the performance of the cavity after each step.
+After the cavity was treated with the re-coating treatment, detailed in Section\ref{subsec:recoating}, the Q-slope is ameliorated and the maximum accelerating gradient increases to 15~MV/m. The quality factor of the cavity was also improved over the as-coated state at 2.0~K, but not at 4.4~K. Fig.~\ref{fig:vtstestgraph} shows the performance of the cavity after each step.
 %
 
 
 \begin{figure}[htb]%
 \centering%
-\includegraphics[width=0.5\textwidth]{../doc/figs/VTS_Test_Graph.png}%
+\includegraphics[width=\columnwidth]{../doc/figs/VTS_Test_Graph.png}%
 \caption{The RF performance of the Nb\textsubscript{3}Sn-coated SRF cavity before and after mechanically polished and after a re-coating treatment.}%
 \label{fig:vtstestgraph}%
 \end{figure}
@@ -192,13 +191,13 @@ After the cavity was treated with the re-coating treatment, detailed in Section\
 %
 \section{Discussion}%
 \label{sec:Discussion}%
-Using mechanical polishing, we are able to produce smooth Nb\textsubscript{3}Sn films with surface roughness less than 20 nm. This level of surface roughness has thus far been impossible to achieve using existing methods. \cite{posen2021advances,pudasaini2018studies,pudasaini2017post,hu2019reducing} We have also shown that this smoothing can be achieved with only a few hundred nanometers of material removal, much less than what would be required for chemical polishing methods.
+Using mechanical polishing, we are able to produce smooth Nb\textsubscript{3}Sn films with surface roughness less than 20~nm. This level of surface roughness has thus far been impossible to achieve using existing methods. \cite{posen2021advances,pudasaini2018studies,pudasaini2017post,hu2019reducing} We have also shown that this smoothing can be achieved with only a few hundred nanometers of material removal, much less than what would be required for chemical polishing methods.
 
-This study also shows that mechanical polishing can be used to improve the performance of Nb\textsubscript{3}Sn cavities when used in conjunction with a re-coating procedure. The immediate effect of polishing reduces the quality factor and accelerating gradient of the cavity. The cause of this performance degradation is not known, but could be due to subsurface defects exposed to the surface such as tin-depleted regions \cite{lee2018atomic}. In a previous study, we have shown that tin-depleted regions and regions where the film becomes very thin are common in tin vapor-diffusion coated samples\cite{citation needed}.
+This study also shows that mechanical polishing can be used to improve the performance of Nb\textsubscript{3}Sn cavities when used in conjunction with a recoating procedure. The immediate effect of polishing reduces the quality factor and accelerating gradient of the cavity. The cause of this performance degradation is not known, but could be due to subsurface defects exposed to the surface such as tin-depleted regions \cite{lee2018atomic}. In a previous study, we have shown that tin-depleted regions and regions where the film becomes very thin are common in tin vapor-diffusion coated samples\cite{10073616}.
 
 Another possible cause for performance degradation is surface damage or contamination caused by the polishing process. Residual abrasive particles can be seen in the SEM images of the polished samples. Cleaning the surface removes most of the contamination, but there may still be some abrasive particles still left on the surface, which could cause performance degradation. Surface damage such as cracks or scratches on the film could also degrade performance, although this seems unlikely as no surface damage was detected on the Nb\textsubscript{3}Sn samples polished with felt cubes. It is possible that the oxide that forms on the Nb3Sn surface after polishing is unfavorable for performance compared to the oxide that forms in the furnace after the coating process. More work is required to determine the cause of the performance degradation. 
 
-After the re-coating process was applied, the cavity performance was improved to levels exceeding the unpolished state. We theorize that the re-coating procedure eliminates the performance degradation by repairing any defects exposed to the surface by the polishing step. A short, low-temperature coating is sufficient to fill in any tin-depleted regions, repair small cracks, and structurally return the top surface of the film to its as-coated state. However, it is difficult to determine the exact effects of the re-coating without performing a thorough cutout analysis on the cavity. We plan to conduct studies in the future to determine the cause of the performance degradation after mechanical polishing and the effects of the re-coating procedure on the Nb\textsubscript{3}Sn surface.
+After the recoating process was applied, the cavity performance was improved to levels exceeding the unpolished state. We theorize that the re-coating procedure eliminates the performance degradation by repairing any defects exposed to the surface by the polishing step. A short, low-temperature coating is sufficient to fill in any tin-depleted regions, repair small cracks, and structurally return the top surface of the film to its as-coated state. However, it is difficult to determine the exact effects of the re-coating without performing a thorough cutout analysis on the cavity. We plan to conduct studies in the future to determine the cause of the performance degradation after mechanical polishing and the effects of the re-coating procedure on the Nb\textsubscript{3}Sn surface.
 
 Despite the improvement to surface roughness, the accelerating gradient of the mechanically polished cavity is still below that of the current record holding cavity.\cite{posen2021advances} This suggests that there are multiple mechanisms that contribute towards cavity quench with surface roughness being one of them. By using mechanical polishing to eliminate the effects of surface roughness on the cavity performance, we can isolate these other causes and study them individually. We plan to apply mechanical polishing to both poorly performing and well performing Nb\textsubscript{3}Sn cavities so that the differences between these cavities can be determined. Applying the polishing procedure to a well-performing cavity could potentially lead to a drastic increase in the maximum accelerating gradient of Nb\textsubscript{3}Sn cavities if an equal improvement as we have shown in this paper can be applied to well-performing as-coated cavities.
 
@@ -207,7 +206,7 @@ The ability to smooth the surface of the Nb\textsubscript{3}Sn cavities also ope
 %
 \section{Conclusion}%
 \label{sec:Conclusion}%
-The work presented in this paper shows that centrifugal barrel polishing is a promising treatment for Nb\textsubscript{3}Sn cavities. Through a series of sample studies, we were able to develop a mechanical polishing procedure that can produce surface roughness that was previously unobtainable. We have found that it is possible to attain films with a surface roughness of 20 nm or lower. 
+The work presented in this paper shows that centrifugal barrel polishing is a promising treatment for Nb\textsubscript{3}Sn cavities. Through a series of sample studies, we were able to develop a mechanical polishing procedure that can produce surface roughness that was previously unobtainable. We have found that it is possible to attain films with a surface roughness of 20~nm or lower. 
 
 Furthermore, we have shown that this surface polishing technique can be used to improve the performance of Nb\textsubscript{3}Sn coated cavities when it is paired with a re-coating step, which consists of a short, low-temperature tin coating.
 

@@ -3,6 +3,7 @@
 \usepackage[orientation=landscape,size=a0,scale=1.4]{beamerposter}
 \usetheme{Warsaw}
 \usepackage{siunitx}
+\usepackage{wrapfig}
 \title{Improving Nb\textsubscript{3}Sn Cavity Performance Using Mechanical Polishing}%
 \author[shortname]{\large Eric Viklund \inst{1, 2} \and David Burk \inst{2} \and David N. Seidman \inst{1} \and Sam Posen \inst{2}}
 \institute[shortinst]{\large \inst{1} Department of Materials Science and Engineering, Northwestern University \newline \inst{2} Fermi National Accelerator Laboratory}
@@ -29,6 +30,13 @@
             \end{column}
             \begin{column}{0.32\linewidth}    
                 \begin{block}{\label{sec:samplestudy}Sample Study}
+                    \begin{wrapfigure}{R}{0.3\columnwidth}
+                        \centering
+                        \includegraphics[width=0.25\columnwidth]{../doc/figs/Optical_Surface_Profiles.png}
+                        \caption{\label{fig:opticalsurfaceprofiles}Surface height maps of Nb\textsubscript{3}Sn samples mechanically polished for different lengths of time ranging from 2 to 8~hours compared to the initial state of the Nb\textsubscript{3}Sn coating.}
+                        \includegraphics[width=0.3\columnwidth]{../doc/figs/Surface_Roughness_Graph.png}
+                        \caption{\label{fig:surfaceroughnessgraph}Surface roughness of Nb\textsubscript{3}Sn samples mechanically polished for different lengths of time calculated from the surface height maps (top). The power spectral density (PSD) of the surface profile after different amounts of tumbling as well as the PSD of electropolished Nb and a thinly coated Nb\textsubscript{3}Sn film.}
+                    \end{wrapfigure}
                     Since Nb\textsubscript{3}Sn is a relatively unexplored material, there are no established polishing parameters or abrasive materials to achieve a good surface finish. To allow for rapid iteration and microscopy surface analysis, we first perform polishing experiments on Nb\textsubscript{3}Sn samples. To evaluate the performance of CBP, the surface roughness of the polished samples is measured using con-focal laser microscopy and the surface is analyzed using scanning and transmission electron microscopy (SEM and TEM). The material removal rate is measured using focused ion-beam tomography.
                     \begin{itemize}                        
                         \item A coupon cavity is used to test the centrifugal barrel polishing method on Nb\textsubscript{3}Sn samples in a realistic environment. The samples sit flush with the inside surface of the coupon cavity, where they experience identical polishing conditions to a real cavity surface.
@@ -42,8 +50,19 @@
             \end{column}
             \begin{column}{0.32\textwidth}
                 \begin{block}{\label{sec:cavitycbp}Polishing a Nb\textsubscript{3}Sn Cavity Using CBP}
-                    Given that CBP was able to produce a smooth surface on Nb\textsubscript{3}Sn samples, the next step is to apply the polishing to a Nb\textsubscript{3}Sn cavity. A Nb\textsubscript{3}Sn-coated cavity was polished using the felt cube polishing media with a 50~nm alumina abrasive particle suspension, chosen to avoid the risk of silicon contamination in the coating furnace. The cavity was polished for 4~hours followed by high-pressure water rinsing and ultrasonic cleaning for 30~minutes to remove any residual abrasive material left by the polishing process. These parameters were chosen as a conservative estimate to minimize the possibility of removing the Nb\textsubscript{3}Sn film and allow for more material removal in the future while still providing a considerable improvement in surface roughness.
-                    \begin{itemize}
+                    \begin{columns}
+                        \begin{column}{0.45\columnwidth}
+                            \begin{figure}[t]
+                                \centering
+                                \includegraphics[width=\columnwidth]{../doc/figs/VTS_Test_Graph.png}%
+                                \caption{\label{fig:vtstestgraph}The RF performance of the Nb\textsubscript{3}Sn-coated SRF cavity before and after mechanically polished and after a re-coating treatment.}
+                            \end{figure}
+                        \end{column}
+                        \begin{column}{0.45\columnwidth}
+                            Given that CBP was able to produce a smooth surface on Nb\textsubscript{3}Sn samples, the next step is to apply the polishing to a Nb\textsubscript{3}Sn cavity. A Nb\textsubscript{3}Sn-coated cavity was polished using the felt cube polishing media with a 50~nm alumina abrasive particle suspension, chosen to avoid the risk of silicon contamination in the coating furnace. The cavity was polished for 4~hours followed by high-pressure water rinsing and ultrasonic cleaning for 30~minutes to remove any residual abrasive material left by the polishing process. These parameters were chosen as a conservative estimate to minimize the possibility of removing the Nb\textsubscript{3}Sn film and allow for more material removal in the future while still providing a considerable improvement in surface roughness.
+                        \end{column}
+                    \end{columns}    
+                    \begin{enumerate}
                         \item The Nb\textsubscript{3}Sn-coated cavity was polished using CBP leading to a shiny surface.
                         \item A re-coating procedure was applied to repair surface damage and subsurface defects at 1,000°C, using one third of the normal amount of tin and no SnCl\textsubscript{2}.
                         \item RF performance of the cavity was tested three times using the vertical test stand (VTS) at FNAL.
@@ -51,7 +70,8 @@
                         \item After polishing, the cavity exhited Q-slope and the maximum gradient was only 5MV/m.
                         \item After the re-coating procedure, the Q-slope was ameliorated, and the maximum accelerating gradient increased to 15MV/m.
                         \item The quality factor of the cavity was also improved over the as-coated state at 2.0K, but not at 4.4~K.
-                    \end{itemize}
+                    \end{enumerate}
+                    
                 \end{block}
             \end{column}
         \end{columns}

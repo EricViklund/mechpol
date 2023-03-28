@@ -4,6 +4,28 @@
 \usetheme{AnnArbor}
 \usepackage{siunitx}
 \usepackage{wrapfig}
+\usepackage{natbib}
+
+\usepackage{filecontents}
+\begin{filecontents*}{\jobname.bib}
+    @article{posen2021advances,
+        title={Advances in Nb3Sn superconducting radiofrequency cavities towards first practical accelerator applications},
+        author={Posen, Sam and Lee, Jaeyel and Seidman, David N and Romanenko, Alexander and Tennis, Brad and Melnychuk, OS and Sergatskov, DA},
+        journal={Superconductor Science and Technology},
+        volume={34},
+        number={2},
+        pages={025007},
+        year={2021},
+        publisher={IOP Publishing}
+    }   
+\end{filecontents*}
+
+\setbeamertemplate{bibliography entry article}{}
+\setbeamertemplate{bibliography entry title}{}
+\setbeamertemplate{bibliography entry location}{}
+\setbeamertemplate{bibliography entry note}{}
+
+
 \title{Improving Nb\textsubscript{3}Sn Cavity Performance Using Mechanical Polishing}%
 \author[shortname]{\large Eric Viklund \inst{1, 2} \and David Burk \inst{2} \and David N. Seidman \inst{1} \and Sam Posen \inst{2}}
 \institute[shortinst]{\large \inst{1} Department of Materials Science and Engineering, Northwestern University \newline \inst{2} Fermi National Accelerator Laboratory}
@@ -48,14 +70,14 @@
                             \begin{figure}[t]
                                 \centering
                                 \includegraphics[width=\columnwidth]{../doc/figs/Surface_Roughness_Graph.png}
-                                \caption{\label{fig:surfaceroughnessgraph}Surface roughness of Nb\textsubscript{3}Sn over time (top). The power spectral density (PSD) of the surface profiles, electropolished Nb, and thinly coated Nb\textsubscript{3}Sn.}
+                                \caption{\label{fig:surfaceroughnessgraph}Surface roughness of Nb\textsubscript{3}Sn over time (top). The power spectral density (PSD) of the surface profiles, electropolished Nb, and thinly coated Nb\textsubscript{3}Sn\cite{posen2021advances}.}
                             \end{figure}
                         \end{column}
                         \begin{column}{0.65\columnwidth}
                             To evaluate the performance of CBP, the surface roughness of the polished samples is measured using con-focal laser microscopy and the surface is analyzed using scanning and transmission electron microscopy (SEM and TEM). The material removal rate is measured using focused ion-beam tomography.
                             \begin{itemize}                        
                                 \item Material is preferentially removed from the highest point on the surface, causing the sharp peaks on the surface to be removed quickly while valleys in the surface are left untouched.
-                                \item After 6~hours of polishing, the surface roughness is comparable to the surface roughness of the well-performing, thinly coated Nb\textsubscript{3}Sn coatings created at Fermilab. 
+                                \item After 6~hours of polishing, the surface roughness is comparable to the surface roughness of the well-performing, thinly coated Nb\textsubscript{3}Sn coatings created at Fermilab\cite{posen2021advances}.
                                 \item After 8~hours of polishing, the surface roughness is comparable to a typical niobium surface after EP.
                                 \item The material removal rate is measured to be 170~nm per hour.
                             \end{itemize}
@@ -85,6 +107,11 @@
                         \item After the re-coating procedure, the Q-slope was ameliorated, and the maximum accelerating gradient increased to 15~MV/m.
                         \item The quality factor of the cavity was also improved over the as-coated state at 2.0~K, but not at 4.4~K.
                     \end{itemize}
+                \end{block}
+                \begin{block}{\label{sec:bibliography}Bibliography}
+                    \small
+                    \bibliographystyle{plain}
+                    \bibliography{\jobname}
                 \end{block}
             \end{column}
         \end{columns}

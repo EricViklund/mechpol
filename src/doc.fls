@@ -1,4 +1,4 @@
-PWD /home/viklund/mechpol/src
+PWD /home/viklund/mechpol-2/mechpol/src
 INPUT /var/lib/texmf/web2c/luahbtex/lualatex.fmt
 INPUT ./doc.tex
 OUTPUT doc.log

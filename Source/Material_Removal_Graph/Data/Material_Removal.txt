@@ -1,0 +1,6 @@
+Tumbling_Duration	Thickness	Tumbling_Duration	Thickness
+0	3.104	0.25	3.241
+2	2.796	1.25	3.184
+4	2.876	8	2.518
+6	1.952		
+8	1.826		

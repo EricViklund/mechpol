@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2023.3.12)  29 MAR 2023 18:28
+This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2023.3.12)  5 APR 2023 11:33
  restricted system commands enabled.
 **doc.tex
 (./doc.tex
@@ -800,12 +800,12 @@ ng><../doc/figs/SEM_Images.png>]
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
  on input line 167.
 
-<../doc/figs/VTS_Test_Graph.png, id=36, 237.40695pt x 334.18852pt>
+<../doc/figs/VTS_Test_Graph.png, id=36, 244.63396pt x 341.41553pt>
 File: ../doc/figs/VTS_Test_Graph.png Graphic file (type png)
 <use ../doc/figs/VTS_Test_Graph.png>
 Package luatex.def Info: ../doc/figs/VTS_Test_Graph.png  used on input line 186
 .
-(luatex.def)             Requested size: 246.0pt x 346.28323pt.
+(luatex.def)             Requested size: 246.0pt x 343.3318pt.
 [5<../doc/figs/Sample_Surface_Scratches.png><../doc/figs/Sample_Surface_Damage_L
 ayer.png>]
 
@@ -815,27 +815,18 @@ LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
 [6<../doc/figs/VTS_Test_Graph.png>] (./doc.bbl)
 
 AED: lastpage setting LastPage
-[7] (./doc.aux
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-)
+[7] (./doc.aux))
 
 Here is how much of LuaTeX's memory you used:
- 15699 strings out of 477805
- 125009,794899 words of node,token memory allocated
+ 15698 strings out of 477805
+ 125007,794899 words of node,token memory allocated
  551 words of node memory still in use:
    10 hlist, 2 vlist, 2 rule, 1 glue, 4 kern, 1 glyph, 10 attribute, 57 glue_spe
 c, 10 attribute_list nodes
-   avail lists: 1:1,2:615,3:583,4:104,5:706,6:54,7:13874,8:8,9:458,10:20,11:1199
+   avail lists: 1:1,2:615,3:583,4:104,5:706,6:54,7:13870,8:8,9:458,10:20,11:1199
 
- 35971 multiletter control sequences out of 65536+600000
- 71 fonts using 21944871 bytes
+ 35970 multiletter control sequences out of 65536+600000
+ 71 fonts using 21944783 bytes
  87i,6n,115p,1272b,440s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf/fonts/opentype/public/lm/lmroman6-bold.otf></usr/share/texmf/f
 onts/opentype/public/lm/lmroman7-regular.otf></usr/share/texmf/fonts/opentype/pu
@@ -845,7 +836,7 @@ share/texmf/fonts/opentype/public/lm/lmroman9-italic.otf></usr/share/texmf/fonts
 /opentype/public/lm/lmroman10-regular.otf></usr/share/texmf/fonts/opentype/publi
 c/lm/lmroman8-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman12-bold
 .otf>
-Output written on doc.pdf (7 pages, 27248275 bytes).
+Output written on doc.pdf (7 pages, 27230678 bytes).
 
 PDF statistics: 105 PDF objects out of 1000 (max. 8388607)
  52 compressed objects within 1 object stream

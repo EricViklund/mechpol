@@ -14,9 +14,7 @@ from matplotlib.ticker import ScalarFormatter
 mpl.rcParams['lines.markersize'] = 2
 mpl.rcParams["lines.linewidth"] = 0.5
 
-Data = pd.read_csv('C:/Users/Eric Viklund/Documents/Nb3Sn/Nb3Sn_Mechanical_Polishing/Mechanical_Polishing_Manuscript/Figures/Source/VTS_Test_Graph/VTS_Data.txt',
-                   sep = None,
-                   header=0)
+Data = pd.read_csv('Source/VTS_Test_Graph/VTS_Data.csv')
 
 
 
@@ -49,7 +47,9 @@ ax[1].set_xlabel('Accelerating Field Strength [MV/m]')
 ax[0].set_ylabel('Quality Factor')
 ax[1].set_ylabel('Quality Factor')
 
-ax[0].set_title('VTS Temperature: 4.4 K')
-ax[1].set_title('VTS Temperature: 2.0 K')
+ax[0].set_title('Temperature: 4.4 K')
+ax[1].set_title('Temperature: 2.0 K')
 
 fig.tight_layout()
+
+plt.savefig('doc/figs/VTS_Test_Graph.png')

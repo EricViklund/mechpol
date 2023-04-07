@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 from matplotlib.ticker import ScalarFormatter
 import os
 
-Data = np.loadtxt('C:/Users/Eric Viklund/Documents/Nb3Sn/Nb3Sn_Mechanical_Polishing/Mechanical_Polishing_Manuscript/Figures/Source/Surface_Roughness_Graph/Data/Surface_Roughness.txt')
+Data = np.loadtxt('Source/Surface_Roughness_Graph/Data/Surface_Roughness.txt')
 
 Tumbling_Duration = Data[:,0]
 Polished_Rq = Data[:,1]
@@ -20,13 +20,13 @@ As_coated_Nb3Sn = Data[:,4]
 
 
 mm = 0.0393701
-fig, (ax1, ax2) = plt.subplots(2,1,figsize=(86*mm,180*mm),dpi=1200)
+fig, (ax1, ax2) = plt.subplots(2,1,figsize=(86*mm,180*mm),dpi=600)
 ax1.set_yscale('log')
 ax1.set_ylim(10,500)
 
-ax1.scatter(Tumbling_Duration,Polished_Rq,c='c',marker='x',label='Polished $Nb_{3}Sn$')
-ax1.plot(Tumbling_Duration,As_coated_Nb3Sn,'b--',label='As-coated $Nb_{3}Sn$')
-ax1.plot(Tumbling_Duration,Shiny_Nb3Sn,'m--',label='Thin Coated $Nb_{3}Sn$')
+ax1.scatter(Tumbling_Duration,Polished_Rq,c='c',marker='x',label='Polished Nb$_3$Sn')
+ax1.plot(Tumbling_Duration,As_coated_Nb3Sn,'b--',label='As-coated Nb$_3$Sn')
+ax1.plot(Tumbling_Duration,Shiny_Nb3Sn,'m--',label='Thin Coated Nb$_3$Sn')
 ax1.plot(Tumbling_Duration,EP_Nb,'y--',label='Electropolished Nb')
 
 ax1.legend(loc='upper right',fontsize=8)
@@ -41,17 +41,25 @@ ax1.tick_params(axis='both', which='major', labelsize=10)
 
 #%%
 
-data_folder = "C:/Users/Eric Viklund/Documents/Nb3Sn/Nb3Sn_Mechanical_Polishing/Mechanical_Polishing_Manuscript/Figures/Source/Surface_Roughness_Graph/Data/Height_Maps/"
+data_folder = "Source/Surface_Roughness_Graph/Data/Height_Maps/"
 files = sorted(os.listdir(data_folder))
 pixel_size = 0.112072
 
 ax2.set_xscale('log')
 ax2.set_yscale('log')
 ax2.set_xlabel('Wavelength [µm]')
-ax2.set_ylabel('Amplitude [$µm^3$]')
+ax2.set_ylabel('Amplitude [µm$^3$]')
 # ax2.set_ylim(1e-7,1e0)
 ax2.set_xlim(2e-1,1e2)
 # ax2.grid(which='both')
+
+colors = {'0h_C31_Height.csv': 'lightcoral',
+          '2h_c9_Height.csv': 'indianred',
+          '4h_C27_Height.csv': 'brown',
+          '6h_E33_Height.csv': 'firebrick',
+          '8h_E42_Height.csv': 'darkred',
+          'EP_M40_Height.csv': 'black',
+          'Shiny_H22_Height.csv': 'limegreen'}
 
 for file in files:
     # plt.figure()
@@ -69,8 +77,11 @@ for file in files:
     frequencies = np.fft.fftfreq(PSD.shape[0],pixel_size)[1:int(PSD.shape[0]/2)]
     wavelength = 1/frequencies
     PSD = (PSD[1:int(PSD.shape[0]/2)]+np.flip(PSD[int(PSD.shape[0]/2):-1]))/2
-    ax2.plot(wavelength,PSD,)
 
-labels = ('Initial Coating','2 Hours','4 Hours','6 Hours','8 Hours','Electropolished Nb','Thin Coated $Nb_{3}Sn$')
+    ax2.plot(wavelength,PSD,color=colors[file])
+
+labels = ('Initial Coating','2 Hours','4 Hours','6 Hours','8 Hours','Electropolished Nb','Thin Coated Nb$_3$Sn')
 ax2.legend(labels,loc='lower right',fontsize=8)
 
+plt.tight_layout()
+plt.savefig('doc/figs/Surface_Roughness_Graph.png')

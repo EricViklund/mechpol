@@ -44,8 +44,8 @@ def BCS_resistance(E_4K,E_2K,Q_4K,Q_2K):
 
     E = np.linspace(E_min,E_max,num=100)
     
-    R_res = interpolate(E_2K,R_2K,s=10)(E)
-    R_BCS = interpolate(E_4K,R_4K,s=10)(E)-R_res
+    R_res = interpolate(E_2K,R_2K,s=2*E_2K.shape[0])(E)
+    R_BCS = interpolate(E_4K,R_4K,s=4*E_4K.shape[0])(E)-R_res
     return E, R_BCS, R_res
 
 
@@ -70,21 +70,29 @@ ax[1].set_xlim(0,17)
 ax[1].set_ylim(3e8,2e11)
 ax[1].grid()
 
-#E, R_BCS, R_res = BCS_resistance(Data['Eacc 4.4K Before CBP'],Data['Eacc 2.0K Before CBP'],Data['Qo 4.4K Before CBP'],Data['Qo 2.0K Before CBP'])
-#[2].plot(E,R_BCS,label='R$_{BCS}$',c='m',ls='--')
-#[2].plot(E,R_res,label='R$_{res}$',c='indigo',ls='--')
+Data = pd.read_csv('Source/VTS_Test_Graph/VTS_Data_Pruned.csv')
+
+
+E, R_BCS, R_res = BCS_resistance(Data['Eacc 4.4K Before CBP'],Data['Eacc 2.0K Before CBP'],Data['Qo 4.4K Before CBP'],Data['Qo 2.0K Before CBP'])
+ax[2].plot(E,R_BCS,label='As-coated R$_{BCS}$',c='m',ls='--')
+ax[2].plot(E,R_res,label='As-coated R$_{res}$',c='indigo',ls='--')
 
 E, R_BCS, R_res = BCS_resistance(Data['Eacc 4.4K After CBP'],Data['Eacc 2.0K After CBP'],Data['Qo 4.4K After CBP'],Data['Qo 2.0K After CBP'])
-ax[2].plot(E,R_BCS,label='R$_{BCS}$',c='c',ls='-')
-ax[2].plot(E,R_res,label='R$_{res}$',c='blue',ls='-')
+ax[2].plot(E,R_BCS,label='Polished R$_{BCS}$',c='c',ls='-')
+ax[2].plot(E,R_res,label='Polished R$_{res}$',c='blue',ls='-')
 
-#ax[2].set_yscale('log')
+E, R_BCS, R_res = BCS_resistance(Data['Eacc 2.0K After Recoating'],Data['Eacc 2.0K After Recoating'],Data['Qo 4.4K After Recoating'],Data['Qo 2.0K After Recoating'])
+ax[2].plot(E,R_BCS,label='Re-coated R$_{BCS}$',c='y',ls='-.')
+ax[2].plot(E,R_res,label='Re-coated R$_{res}$',c='darkgoldenrod',ls='-.')
+
+ax[2].set_yscale('log')
 ax[2].set_xlim(0,17)
-#ax[2].set_ylim(0,20)
+ax[2].set_yticks((2,4,8,16,32,64,128,256))
+ax[2].yaxis.set_major_formatter(ScalarFormatter())
 ax[2].grid()
 
 ax[0].legend(loc='upper right')
-ax[2].legend()
+ax[2].legend(loc='upper right', ncol=1, fontsize='xx-small')
 
 ax[2].set_xlabel('Accelerating Field Strength [MV/m]')
 ax[0].set_ylabel('Quality Factor')
@@ -93,7 +101,7 @@ ax[2].set_ylabel('R$_{res}$, R$_{BCS}$(4.4 K) [nOhm]')
 
 ax[0].set_title('Temperature: 4.4 K')
 ax[1].set_title('Temperature: 2.0 K')
-ax[2].set_title('Surface Resistance Decomposition')
+ax[2].set_title('Surface Resistance')
 
 fig.tight_layout()
 

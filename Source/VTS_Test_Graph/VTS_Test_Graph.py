@@ -44,8 +44,8 @@ def BCS_resistance(E_4K,E_2K,Q_4K,Q_2K):
 
     E = np.linspace(E_min,E_max,num=100)
     
-    R_res = interpolate(E_2K,R_2K,s=2*E_2K.shape[0])(E)
-    R_BCS = interpolate(E_4K,R_4K,s=4*E_4K.shape[0])(E)-R_res
+    R_res = interpolate(E_2K,R_2K,s=6e-1*E_2K.shape[0])(E)
+    R_BCS = interpolate(E_4K,R_4K,s=6e-1*E_4K.shape[0])(E)-R_res
     return E, R_BCS, R_res
 
 
@@ -81,15 +81,12 @@ E, R_BCS, R_res = BCS_resistance(Data['Eacc 4.4K After CBP'],Data['Eacc 2.0K Aft
 ax[2].plot(E,R_BCS,label='Polished R$_{BCS}$',c='c',ls='-')
 ax[2].plot(E,R_res,label='Polished R$_{res}$',c='blue',ls='-')
 
-E, R_BCS, R_res = BCS_resistance(Data['Eacc 2.0K After Recoating'],Data['Eacc 2.0K After Recoating'],Data['Qo 4.4K After Recoating'],Data['Qo 2.0K After Recoating'])
+E, R_BCS, R_res = BCS_resistance(Data['Eacc 4.4K After Recoating'],Data['Eacc 2.0K After Recoating'],Data['Qo 4.4K After Recoating'],Data['Qo 2.0K After Recoating'])
 ax[2].plot(E,R_BCS,label='Re-coated R$_{BCS}$',c='y',ls='-.')
 ax[2].plot(E,R_res,label='Re-coated R$_{res}$',c='darkgoldenrod',ls='-.')
 
-ax[2].set_yscale('log')
 ax[2].set_xlim(0,17)
-ax[2].set_yticks((2,4,8,16,32,64,128,256))
-ax[2].minorticks_off()
-ax[2].yaxis.set_major_formatter(ScalarFormatter())
+ax[2].set_ylim(0,40)
 ax[2].grid()
 
 ax[0].legend(loc='upper right')

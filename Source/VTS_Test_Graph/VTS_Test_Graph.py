@@ -88,6 +88,7 @@ ax[2].plot(E,R_res,label='Re-coated R$_{res}$',c='darkgoldenrod',ls='-.')
 ax[2].set_yscale('log')
 ax[2].set_xlim(0,17)
 ax[2].set_yticks((2,4,8,16,32,64,128,256))
+ax[2].minorticks_off()
 ax[2].yaxis.set_major_formatter(ScalarFormatter())
 ax[2].grid()
 

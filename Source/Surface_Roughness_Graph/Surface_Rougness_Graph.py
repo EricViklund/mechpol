@@ -20,7 +20,7 @@ As_coated_Nb3Sn = Data[:,4]
 
 
 mm = 0.0393701
-fig, (ax1, ax2) = plt.subplots(2,1,figsize=(86*mm,180*mm),dpi=600)
+fig, (ax1, ax2) = plt.subplots(2,1,figsize=(86*mm,160*mm),dpi=600)
 ax1.set_yscale('log')
 ax1.set_ylim(10,500)
 

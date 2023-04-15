@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2023.3.12)  5 APR 2023 11:33
+This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2023.3.12)  14 APR 2023 19:54
  restricted system commands enabled.
 **doc.tex
 (./doc.tex
@@ -757,76 +757,80 @@ Package luatex.def Info: ../doc/figs/Coupon_Cavity.png  used on input line 73.
 File: ../doc/figs/Optical_Surface_Profiles.png Graphic file (type png)
 <use ../doc/figs/Optical_Surface_Profiles.png>
 Package luatex.def Info: ../doc/figs/Optical_Surface_Profiles.png  used on inpu
-t line 102.
+t line 90.
 (luatex.def)             Requested size: 196.80075pt x 504.45137pt.
-<../doc/figs/Surface_Roughness_Graph.png, id=21, 257.82323pt x 431.51213pt>
+<../doc/figs/Surface_Roughness_Graph.png, id=21, 244.63396pt x 455.18056pt>
 File: ../doc/figs/Surface_Roughness_Graph.png Graphic file (type png)
 <use ../doc/figs/Surface_Roughness_Graph.png>
 Package luatex.def Info: ../doc/figs/Surface_Roughness_Graph.png  used on input
- line 112.
-(luatex.def)             Requested size: 246.0pt x 411.7383pt.
+ line 100.
+(luatex.def)             Requested size: 196.80075pt x 366.18689pt.
 <../doc/figs/Material_Removal_Graph.png, id=22, 241.02045pt x 220.48372pt>
 File: ../doc/figs/Material_Removal_Graph.png Graphic file (type png)
 <use ../doc/figs/Material_Removal_Graph.png>
 Package luatex.def Info: ../doc/figs/Material_Removal_Graph.png  used on input 
-line 122.
-(luatex.def)             Requested size: 246.0pt x 225.0418pt.
+line 110.
+(luatex.def)             Requested size: 196.80075pt x 180.0341pt.
 <../doc/figs/SEM_Images.png, id=23, 227.6505pt x 162.1257pt>
 File: ../doc/figs/SEM_Images.png Graphic file (type png)
 <use ../doc/figs/SEM_Images.png>
-Package luatex.def Info: ../doc/figs/SEM_Images.png  used on input line 132.
-(luatex.def)             Requested size: 246.0pt x 175.19952pt.
+Package luatex.def Info: ../doc/figs/SEM_Images.png  used on input line 134.
+(luatex.def)             Requested size: 196.80075pt x 140.16011pt.
 <../doc/figs/Sample_Surface_Scratches.png, id=24, 244.63396pt x 345.6915pt>
 File: ../doc/figs/Sample_Surface_Scratches.png Graphic file (type png)
 <use ../doc/figs/Sample_Surface_Scratches.png>
 Package luatex.def Info: ../doc/figs/Sample_Surface_Scratches.png  used on inpu
-t line 142.
-(luatex.def)             Requested size: 246.0pt x 347.63177pt.
-<../doc/figs/Sample_Surface_Damage_Layer.png, id=25, 244.63396pt x 244.63396pt>
+t line 144.
+(luatex.def)             Requested size: 196.80075pt x 278.10435pt.
+<../doc/figs/Sample_Surface_Damage_Layer.png, id=25, 244.63396pt x 489.38835pt>
 
 File: ../doc/figs/Sample_Surface_Damage_Layer.png Graphic file (type png)
 <use ../doc/figs/Sample_Surface_Damage_Layer.png>
 Package luatex.def Info: ../doc/figs/Sample_Surface_Damage_Layer.png  used on i
-nput line 152.
-(luatex.def)             Requested size: 246.0pt x 246.00702pt.
+nput line 154.
+(luatex.def)             Requested size: 196.80075pt x 393.70663pt.
  [3<../doc/figs/Optical_Surface_Profiles.png>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 161.
+ on input line 163.
 
 [4<../doc/figs/Surface_Roughness_Graph.png><../doc/figs/Material_Removal_Graph.p
 ng><../doc/figs/SEM_Images.png>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 167.
+ on input line 173.
 
-<../doc/figs/VTS_Test_Graph.png, id=36, 244.63396pt x 341.41553pt>
+<../doc/figs/VTS_Test_Graph.png, id=36, 244.63396pt x 512.09317pt>
 File: ../doc/figs/VTS_Test_Graph.png Graphic file (type png)
 <use ../doc/figs/VTS_Test_Graph.png>
-Package luatex.def Info: ../doc/figs/VTS_Test_Graph.png  used on input line 186
+Package luatex.def Info: ../doc/figs/VTS_Test_Graph.png  used on input line 188
 .
-(luatex.def)             Requested size: 246.0pt x 343.3318pt.
+(luatex.def)             Requested size: 196.80075pt x 411.97238pt.
 [5<../doc/figs/Sample_Surface_Scratches.png><../doc/figs/Sample_Surface_Damage_L
 ayer.png>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 197.
+ on input line 199.
 
 [6<../doc/figs/VTS_Test_Graph.png>] (./doc.bbl)
 
 AED: lastpage setting LastPage
-[7] (./doc.aux))
+[7] (./doc.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+)
 
 Here is how much of LuaTeX's memory you used:
- 15698 strings out of 477805
- 125007,794899 words of node,token memory allocated
+ 15697 strings out of 477805
+ 156265,794899 words of node,token memory allocated
  551 words of node memory still in use:
    10 hlist, 2 vlist, 2 rule, 1 glue, 4 kern, 1 glyph, 10 attribute, 57 glue_spe
 c, 10 attribute_list nodes
-   avail lists: 1:1,2:615,3:583,4:104,5:706,6:54,7:13870,8:8,9:458,10:20,11:1199
+   avail lists: 1:2,2:636,3:590,4:104,5:733,6:55,7:14379,8:8,9:458,10:20,11:1199
 
- 35970 multiletter control sequences out of 65536+600000
- 71 fonts using 21944783 bytes
+ 35969 multiletter control sequences out of 65536+600000
+ 71 fonts using 21944959 bytes
  87i,6n,115p,1272b,440s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf/fonts/opentype/public/lm/lmroman6-bold.otf></usr/share/texmf/f
 onts/opentype/public/lm/lmroman7-regular.otf></usr/share/texmf/fonts/opentype/pu
@@ -836,7 +840,7 @@ share/texmf/fonts/opentype/public/lm/lmroman9-italic.otf></usr/share/texmf/fonts
 /opentype/public/lm/lmroman10-regular.otf></usr/share/texmf/fonts/opentype/publi
 c/lm/lmroman8-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman12-bold
 .otf>
-Output written on doc.pdf (7 pages, 27230678 bytes).
+Output written on doc.pdf (7 pages, 31375257 bytes).
 
 PDF statistics: 105 PDF objects out of 1000 (max. 8388607)
  52 compressed objects within 1 object stream

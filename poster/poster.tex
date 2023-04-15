@@ -1,7 +1,8 @@
 \documentclass{beamer}
 \mode<presentation>
 \usepackage[orientation=landscape,size=a0,scale=1.4]{beamerposter}
-\usetheme{AnnArbor}
+\usetheme{gemini}
+\usecolortheme{gemini}
 \usepackage{siunitx}
 \usepackage{wrapfig}
 \usepackage{natbib}
@@ -27,12 +28,12 @@
 
 
 \title{Improving Nb\textsubscript{3}Sn Cavity Performance Using Mechanical Polishing}%
-\author[shortname]{\large Eric Viklund \inst{1, 2} \and David Burk \inst{2} \and David N. Seidman \inst{1} \and Sam Posen \inst{2}}
-\institute[shortinst]{\large \inst{1} Department of Materials Science and Engineering, Northwestern University \newline \inst{2} Fermi National Accelerator Laboratory}
+\author{Eric Viklund \inst{1, 2} \and David Burk \inst{2} \and David N. Seidman \inst{1} \and Sam Posen \inst{2}}
+\institute[shortinst]{\inst{1} Department of Materials Science and Engineering, Northwestern University \samelineand \inst{2} Fermi National Accelerator Laboratory}
 \date{\today}%
 \begin{document}%
     \begin{frame}{}
-        \maketitle
+        %\maketitle
         \begin{columns}[t]
             \begin{column}{0.32\linewidth}
                 \begin{block}{\label{sec:introduction}Introduction}
@@ -66,7 +67,7 @@
             \begin{column}{0.32\linewidth}    
                 \begin{block}{\label{sec:samplestudy}Surface Analysis of Nb\textsubscript{3}Sn Polished with CBP}
                     \begin{columns}[t]
-                        \begin{column}{0.35\columnwidth}
+                        \begin{column}{0.4\columnwidth}
                             \begin{figure}[t]
                                 \centering
                                 \includegraphics[width=\columnwidth]{../doc/figs/Optical_Surface_Profiles.png}
@@ -74,7 +75,7 @@
                             \end{figure}
 
                         \end{column}
-                        \begin{column}{0.55\columnwidth}
+                        \begin{column}{0.5\columnwidth}
                              \begin{figure}[t]
                                 \centering
                                 \includegraphics[width=\columnwidth]{../doc/figs/Surface_Roughness_Graph.png}
@@ -85,10 +86,10 @@
                     \end{columns}
                     To evaluate the performance of CBP, the surface roughness of the polished samples is measured using con-focal laser microscopy and the surface is analyzed using scanning and transmission electron microscopy (SEM and TEM). The material removal rate is measured using focused ion-beam tomography.
                     \begin{itemize}                        
-                        \item Material is preferentially removed from the highest point on the surface, causing the sharp peaks on the surface to be removed quickly while valleys in the surface are left untouched.
+                        \item Material is preferentially removed from the highest point on the surface.
+                        \item The material removal rate is measured to be 170~nm per hour.
                         \item After 6~hours of polishing, the surface roughness is comparable to the surface roughness of the well-performing, thinly coated Nb\textsubscript{3}Sn coatings created at Fermilab\cite{posen2021advances}.
                         \item After 8~hours of polishing, the surface roughness is comparable to a typical niobium surface after EP.
-                        \item The material removal rate is measured to be 170~nm per hour.
                     \end{itemize}
                 \end{block}
             \end{column}
@@ -99,26 +100,26 @@
 
             \begin{column}{0.32\textwidth}
                 \begin{block}{\label{sec:cavitycbp}RF Performance Improvement from Polishing}
+                    A Nb\textsubscript{3}Sn-coated single-cell 1.3~GHz cavity was polished for 4~hours followed by high-pressure water rinsing and ultrasonic cleaning for 30~minutes to remove any residual abrasive material. A conservative polishing time was used to minimize the possibility of removing the Nb\textsubscript{3}Sn film while still providing a considerable improvement in surface roughness.
                     \begin{columns}
-                        \begin{column}{0.55\columnwidth}
+                        \begin{column}{0.5\columnwidth}
                             \begin{figure}[t]
                                 \centering
                                 \includegraphics[width=\columnwidth]{../doc/figs/VTS_Test_Graph.png}%
                                 \caption{\label{fig:vtstestgraph}The RF performance of the Nb\textsubscript{3}Sn-coated SRF cavity before and after mechanically polished and after a re-coating treatment.}
                             \end{figure}
                         \end{column}
-                        \begin{column}{0.30\columnwidth}
-                            Nb\textsubscript{3}Sn-coated single-cell 5~GHz cavity was polished for 4~hours followed by high-pressure water rinsing and ultrasonic cleaning for 30~minutes to remove any residual abrasive material. A conservative polishing time was used to minimize the possibility of removing the Nb\textsubscript{3}Sn film while still providing a considerable improvement in surface roughness.
+                        \begin{column}{0.45\columnwidth}
+                            \begin{itemize}
+                                \item The resulting cavity surface had a mirror-like appearance.
+                                \item The as-coated performance was poor, with a maximum gradient of around 10~MV/m and Q of 10\textsuperscript{10} at 4.4~K.
+                                \item After polishing, the cavity exhited Q-slope and the maximum gradient was only 5~MV/m.
+                                \item A re-coating procedure was applied to repair surface damage and subsurface defects at 1,000~°C, using one third of the normal amount of tin and no SnCl\textsubscript{2}.
+                                \item After the re-coating procedure, the Q-slope was ameliorated, and the maximum accelerating gradient increased to 15~MV/m.
+                                \item The quality factor of the cavity was also improved over the as-coated state at 2.0~K, but not at 4.4~K.
+                            \end{itemize}
                         \end{column}
                     \end{columns}    
-                    \begin{itemize}
-                        \item The resulting cavity surface had a mirror-like appearance.
-                        \item The as-coated performance was poor, with a maximum gradient of around 10~MV/m and Q of 10\textsuperscript{10} at 4.4~K.
-                        \item After polishing, the cavity exhited Q-slope and the maximum gradient was only 5~MV/m.
-                        \item A re-coating procedure was applied to repair surface damage and subsurface defects at 1,000~°C, using one third of the normal amount of tin and no SnCl\textsubscript{2}.
-                        \item After the re-coating procedure, the Q-slope was ameliorated, and the maximum accelerating gradient increased to 15~MV/m.
-                        \item The quality factor of the cavity was also improved over the as-coated state at 2.0~K, but not at 4.4~K.
-                    \end{itemize}
                 \end{block}
                 \begin{block}{\label{sec:bibliography}Bibliography}
                     \small

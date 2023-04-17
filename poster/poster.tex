@@ -1,16 +1,17 @@
 \documentclass{beamer}
 \mode<presentation>
-\usepackage[orientation=landscape,size=a0,scale=1.4]{beamerposter}
+\usepackage[orientation=portrait,size=a0,scale=1.4]{beamerposter}
 \usetheme{gemini}
 \usecolortheme{gemini}
 \usepackage{siunitx}
 \usepackage{wrapfig}
 \usepackage{natbib}
+\usepackage{floatrow}
 
 \usepackage{filecontents}
 \begin{filecontents*}{\jobname.bib}
     @article{posen2021advances,
-        title={Advances in Nb3Sn superconducting radiofrequency cavities towards first practical accelerator applications},
+        title={Advances in Nb\textsubscript{3}Sn superconducting radiofrequency cavities towards first practical accelerator applications},
         author={Posen, Sam and Lee, Jaeyel and Seidman, David N and Romanenko, Alexander and Tennis, Brad and Melnychuk, OS and Sergatskov, DA},
         journal={Superconductor Science and Technology},
         volume={34},
@@ -100,6 +101,12 @@
                         \item After 6~hours of polishing, the surface roughness is comparable to the surface roughness of the well-performing, thinly coated Nb\textsubscript{3}Sn coatings created at Fermilab\cite{posen2021advances}.
                         \item After 8~hours of polishing, the surface roughness is comparable to a typical niobium surface after EP.
                     \end{itemize}
+                    \begin{figure}
+                        \floatbox[{\capbeside\thisfloatsetup{capbesideposition={left,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
+                        {\caption{TEM images of a Nb\textsubscript{3}Sn sample polished using wooden spheres (A) and felt cubes (B). The polishing procedure creates a 10~nm thick layer of disordered Nb\textsubscript{3}Sn on the sample polished with wooden spheres which is not present on the sample polished by felt cubes.}\label{fig:samplesurfacedamagelayer}}
+                        {\includegraphics[width=\columnwidth]{../doc/figs/Sample_Surface_Damage_Layer.png}}
+                    \end{figure}
+
                 \end{block}
             \end{column}
 
@@ -109,31 +116,34 @@
 
             \begin{column}{0.32\textwidth}
                 \begin{block}{\label{sec:cavitycbp}RF Performance Improvement from Polishing}
-                    A Nb\textsubscript{3}Sn-coated single-cell 1.3~GHz cavity was polished for 4~hours followed by high-pressure water rinsing and ultrasonic cleaning for 30~minutes to remove any residual abrasive material. A conservative polishing time was used to minimize the possibility of removing the Nb\textsubscript{3}Sn film while still providing a considerable improvement in surface roughness.
                     \begin{columns}
-                        \begin{column}{0.5\columnwidth}
+                        \begin{column}{0.45\columnwidth}
                             \begin{figure}[t]
                                 \centering
                                 \includegraphics[width=\columnwidth]{../doc/figs/VTS_Test_Graph.png}%
                                 \caption{\label{fig:vtstestgraph}The RF performance of the Nb\textsubscript{3}Sn-coated SRF cavity before and after mechanically polished and after a re-coating treatment.}
                             \end{figure}
                         \end{column}
-                        \begin{column}{0.45\columnwidth}
-                            \begin{itemize}
-                                \item The resulting cavity surface had a mirror-like appearance.
-                                \item The as-coated performance was poor, with a maximum gradient of around 10~MV/m and Q of 10\textsuperscript{10} at 4.4~K.
-                                \item After polishing, the cavity exhited Q-slope and the maximum gradient was only 5~MV/m.
-                                \item A re-coating procedure was applied to repair surface damage and subsurface defects at 1,000~°C, using one third of the normal amount of tin and no SnCl\textsubscript{2}.
-                                \item After the re-coating procedure, the Q-slope was ameliorated, and the maximum accelerating gradient increased to 15~MV/m.
-                                \item The quality factor of the cavity was also improved over the as-coated state at 2.0~K, but not at 4.4~K.
-                            \end{itemize}
+                        \begin{column}{0.5\columnwidth}
+                            A Nb\textsubscript{3}Sn-coated single-cell 1.3~GHz cavity was polished for 4~hours followed by high-pressure water rinsing and ultrasonic cleaning for 30~minutes to remove any residual abrasive material. A conservative polishing time was used to minimize the possibility of removing the Nb\textsubscript{3}Sn film while still providing a considerable improvement in surface roughness.
                         \end{column}
-                    \end{columns}    
+                    \end{columns}   
+                    \begin{itemize}
+                        \item The resulting cavity surface had a mirror-like appearance.
+                        \item The as-coated performance was poor, with a maximum gradient of around 10~MV/m and Q of 10\textsuperscript{10} at 4.4~K.
+                        \item After polishing, the cavity exhited Q-slope and the maximum gradient was only 5~MV/m.
+                        \item A re-coating procedure was applied to repair surface damage and subsurface defects at 1,000~°C, using one third of the normal amount of tin and no SnCl\textsubscript{2}.
+                        \item After the re-coating procedure, the Q-slope was ameliorated, and the maximum accelerating gradient increased to 15~MV/m.
+                        \item The quality factor of the cavity was also improved over the as-coated state at 2.0~K, but not at 4.4~K.
+                    \end{itemize} 
                 \end{block}
                 \begin{block}{\label{sec:bibliography}Bibliography}
                     \small
                     \bibliographystyle{plain}
                     \bibliography{\jobname}
+                \end{block}
+                \begin{block}{\label{sec:acknowledgements}Acknowledgements}
+                    This manuscript has been authored by Fermi Research Alliance, LLC under Contract No. DE-AC02-07CH11359 with the U.S. Department of Energy, Office of Science, Office of High Energy Physics.
                 \end{block}
             \end{column}
         \end{columns}

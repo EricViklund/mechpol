@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2023.3.12)  18 APR 2023 15:50
+This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2023.3.12)  18 APR 2023 16:20
  restricted system commands enabled.
 **doc.tex
 (./doc.tex
@@ -815,11 +815,7 @@ LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
 [6<../doc/figs/VTS_Test_Graph.png>] (./doc.bbl)
 
 AED: lastpage setting LastPage
-[7] (./doc.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-)
+[7] (./doc.aux))
 
 Here is how much of LuaTeX's memory you used:
  15695 strings out of 477805
@@ -830,7 +826,7 @@ c, 10 attribute_list nodes
    avail lists: 1:1,2:659,3:602,4:104,5:743,6:57,7:14583,8:8,9:458,10:20,11:1199
 
  35967 multiletter control sequences out of 65536+600000
- 71 fonts using 21944871 bytes
+ 71 fonts using 21945135 bytes
  87i,6n,115p,1272b,440s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf/fonts/opentype/public/lm/lmroman6-bold.otf></usr/share/texmf/f
 onts/opentype/public/lm/lmroman7-regular.otf></usr/share/texmf/fonts/opentype/pu

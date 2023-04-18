@@ -5,8 +5,10 @@
 \usecolortheme{gemini}
 \usepackage{siunitx}
 \usepackage{wrapfig}
+\usepackage{graphicx}
 \usepackage{natbib}
-\usepackage{floatrow}
+ 
+
 
 \usepackage{filecontents}
 \begin{filecontents*}{\jobname.bib}
@@ -28,12 +30,13 @@
 \setbeamertemplate{bibliography entry note}{}
 
 
-\title{Improving Nb\textsubscript{3}Sn Cavity Performance Using Mechanical Polishing}%
+\title{Improving Nb\textsubscript{3}Sn Cavity Performance Using Centrifugal Barrel Polishing}%
 \author{Eric Viklund \inst{1, 2} \and David Burk \inst{2} \and David N. Seidman \inst{1} \and Sam Posen \inst{2}}
-\institute[shortinst]{\inst{1} Department of Materials Science and Engineering, Northwestern University \samelineand \inst{2} Fermi National Accelerator Laboratory}
+\institute[shortinst]{\inst{1}Department of Materials Science and Engineering, Northwestern University\\
+\inst{2}Fermi National Accelerator Laboratory}
 \date{\today}%
 
-\logoleft{\parbox{0.05\textwidth}{\includegraphics[width=7cm]{logos/FNAL-Logo-White.png} \includegraphics[width=7cm]{logos/Northwestern-Logo-White.png}}}
+\logoleft{\parbox{0.05\textwidth}{\includegraphics[width=7cm]{logos/FNAL-Logo-White.png} \newline \vspace{1cm} \includegraphics[width=7cm]{logos/Northwestern-Logo-White.png} \newline \vspace{1cm} \includegraphics[width=7cm]{logos/DOE_SC_Logo_White.png}}}
 
 \begin{document}%
     \begin{frame}{}
@@ -45,7 +48,7 @@
                         \item Centrifugal barrel polishing (CBP) is an effective method of polishing Nb\textsubscript{3}Sn coated cavities.
                         \item Nb\textsubscript{3}Sn films polished using CBP can acheive less than 20~nm surface roughness with minimal material removal.
                         \item CBP treatment of a Nb\textsubscript{3}Sn cavity leads to a significant increase in the maximum accelerating gradient.
-                        \item However, a secondary re-coating procedure is required to achive this increase.
+                        \item A secondary recoating procedure is required to achive this increase.
                     \end{itemize}
                 \end{alertblock}
                 \begin{block}{\label{sec:backgroundinformation}Background Information}
@@ -53,7 +56,7 @@
                     \begin{columns}[t]
                         \begin{column}{0.45\columnwidth}
                             \begin{itemize}
-                                \item Centrifugal Barrel Polishing (CBP) is a technique used to polish niobium cavities without using toxic chemicals such as HF.
+                                \item Centrifugal Barrel Polishing (CBP) is a technique used to polish niobium cavities, without using toxic chemicals such as HF.
                                 \item CBP uses a custom built tumbling machine that can fit up to 9-cell size cavities, and can accelerate the polishing media against the cavity surface with up to 6g of force.
                                 \item An alumina nanoparticle suspension is used as the abrasive material. Felt cubes are added to push the abrasives against the cavity surface.
                             \end{itemize}  
@@ -94,7 +97,7 @@
                         \end{column}
 
                     \end{columns}
-                    To evaluate the performance of CBP, the surface roughness of the polished samples is measured using con-focal laser microscopy and the surface is analyzed using scanning and transmission electron microscopy (SEM and TEM). The material removal rate is measured using focused ion-beam tomography.
+                    To evaluate the performance of CBP, the surface roughness of the polished samples is measured using confocal laser microscopy and the surface is analyzed using scanning and transmission electron microscopy (SEM and TEM). The material removal rate is measured using focused ion-beam tomography.
                     \begin{itemize}                        
                         \item Material is preferentially removed from the highest point on the surface.
                         \item The material removal rate is measured to be 170~nm per hour.
@@ -102,11 +105,14 @@
                         \item After 8~hours of polishing, the surface roughness is comparable to a typical niobium surface after EP.
                     \end{itemize}
                     \begin{figure}
-                        \floatbox[{\capbeside\thisfloatsetup{capbesideposition={left,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
-                        {\caption{TEM images of a Nb\textsubscript{3}Sn sample polished using wooden spheres (A) and felt cubes (B). The polishing procedure creates a 10~nm thick layer of disordered Nb\textsubscript{3}Sn on the sample polished with wooden spheres which is not present on the sample polished by felt cubes.}\label{fig:samplesurfacedamagelayer}}
-                        {\includegraphics[width=\columnwidth]{../doc/figs/Sample_Surface_Damage_Layer.png}}
+                        \begin{columns}
+                            \column{.5\linewidth}
+                            \includegraphics[width=\textwidth]{../doc/figs/Sample_Surface_Damage_Layer.png}
+                            \column{.4\linewidth}
+                            \caption{TEM images of a Nb\textsubscript{3}Sn sample polished using wooden spheres (A) and felt cubes (B). The polishing procedure creates a 10~nm thick layer of disordered Nb\textsubscript{3}Sn on the sample polished with wooden spheres which is not present on the sample polished by felt cubes.}
+                            \label{fig:samplesurfacedamagelayer}
+                        \end{columns}
                     \end{figure}
-
                 \end{block}
             \end{column}
 
@@ -121,20 +127,20 @@
                             \begin{figure}[t]
                                 \centering
                                 \includegraphics[width=\columnwidth]{../doc/figs/VTS_Test_Graph.png}%
-                                \caption{\label{fig:vtstestgraph}The RF performance of the Nb\textsubscript{3}Sn-coated SRF cavity before and after mechanically polished and after a re-coating treatment.}
+                                \caption{\label{fig:vtstestgraph}The RF performance of the Nb\textsubscript{3}Sn-coated SRF cavity before and after centrifugal barrel polishing and after a recoating treatment.}
                             \end{figure}
                         \end{column}
                         \begin{column}{0.5\columnwidth}
-                            A Nb\textsubscript{3}Sn-coated single-cell 1.3~GHz cavity was polished for 4~hours followed by high-pressure water rinsing and ultrasonic cleaning for 30~minutes to remove any residual abrasive material. A conservative polishing time was used to minimize the possibility of removing the Nb\textsubscript{3}Sn film while still providing a considerable improvement in surface roughness.
+                            A Nb\textsubscript{3}Sn-coated single-cell 1.3~GHz cavity was polished for 4~hours followed by high-pressure water rinsing and ultrasonic cleaning for 30~minutes to remove any residual abrasive material. A conservative polishing time was used to minimize the possibility of removing the Nb\textsubscript{3}Sn film, while still providing a considerable improvement in suface smoothness.
                         \end{column}
                     \end{columns}   
                     \begin{itemize}
-                        \item The resulting cavity surface had a mirror-like appearance.
-                        \item The as-coated performance was poor, with a maximum gradient of around 10~MV/m and Q of 10\textsuperscript{10} at 4.4~K.
-                        \item After polishing, the cavity exhited Q-slope and the maximum gradient was only 5~MV/m.
-                        \item A re-coating procedure was applied to repair surface damage and subsurface defects at 1,000~°C, using one third of the normal amount of tin and no SnCl\textsubscript{2}.
-                        \item After the re-coating procedure, the Q-slope was ameliorated, and the maximum accelerating gradient increased to 15~MV/m.
-                        \item The quality factor of the cavity was also improved over the as-coated state at 2.0~K, but not at 4.4~K.
+                        \item The resulting cavity surface has a mirror-like appearance.
+                        \item The as-coated performance is poor, with a maximum gradient of around 10~MV/m and Q of 10\textsuperscript{10} at 4.4~K.
+                        \item After polishing, the cavity exhibits Q-slope and the maximum gradient is only 5~MV/m.
+                        \item A recoating procedure is applied to repair surface damage and subsurface defects at 1,000~°C, using one third of the normal amount of tin and no SnCl\textsubscript{2}.
+                        \item After the recoating procedure, the Q-slope is ameliorated, and the maximum accelerating gradient increases to 15~MV/m.
+                        \item The quality factor of the cavity is also improved over the as-coated state at 2.0~K, but not at 4.4~K.
                     \end{itemize} 
                 \end{block}
                 \begin{block}{\label{sec:bibliography}Bibliography}

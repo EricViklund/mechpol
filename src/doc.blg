@@ -27,6 +27,46 @@ Control: page (0) single
 Control: year (1) truncated
 Control: production of eprint (0) enabled
 "J. High Energy Phys." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry boulware2019high
+while executing---line 3515 of file apsrev4-2.bst
+"J. High Energ. Phys." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry boulware2019high
+while executing---line 3515 of file apsrev4-2.bst
+"JHEP" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry boulware2019high
+while executing---line 3515 of file apsrev4-2.bst
+"Journal of Cosmology and Astroparticle Physics" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry boulware2019high
+while executing---line 3515 of file apsrev4-2.bst
+"J. Cosmol. Astropart. Phys." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry boulware2019high
+while executing---line 3515 of file apsrev4-2.bst
+"JCAP" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry boulware2019high
+while executing---line 3515 of file apsrev4-2.bst
+"Journal of Instrumentation" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry boulware2019high
+while executing---line 3515 of file apsrev4-2.bst
+"J. Instrum." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry boulware2019high
+while executing---line 3515 of file apsrev4-2.bst
+"JINST" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry boulware2019high
+while executing---line 3515 of file apsrev4-2.bst
+"Journal of Statistical Mechanics" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry boulware2019high
+while executing---line 3515 of file apsrev4-2.bst
+"J. of Stat. Mech." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry boulware2019high
+while executing---line 3515 of file apsrev4-2.bst
+"J. Stat. Mech.: Theory Exp." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry boulware2019high
+while executing---line 3515 of file apsrev4-2.bst
+"JSTAT" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry boulware2019high
+while executing---line 3515 of file apsrev4-2.bst
+Warning--missing journal in boulware2019high
+"J. High Energy Phys." is a string literal, `journal' is a missing field
 ---they aren't the same literal types for entry pudasaini2017post
 while executing---line 3515 of file apsrev4-2.bst
 "J. High Energ. Phys." is a string literal, `journal' is a missing field
@@ -106,45 +146,45 @@ while executing---line 3515 of file apsrev4-2.bst
 ---they aren't the same literal types for entry pischalnikov2014rf
 while executing---line 3515 of file apsrev4-2.bst
 Warning--missing journal in pischalnikov2014rf
-You've used 15 entries,
+You've used 31 entries,
             6079 wiz_defined-function locations,
-            1708 strings with 18143 characters,
-and the built_in function-call counts, 17085 in all, are:
-= -- 1004
-> -- 540
-< -- 121
-+ -- 164
-- -- 150
-* -- 2724
-:= -- 1531
-add.period$ -- 13
-call.type$ -- 15
-change.case$ -- 65
-chr.to.int$ -- 25
-cite$ -- 17
-duplicate$ -- 1618
-empty$ -- 1191
-format.name$ -- 301
-if$ -- 3418
+            1797 strings with 21376 characters,
+and the built_in function-call counts, 34235 in all, are:
+= -- 2166
+> -- 1002
+< -- 204
++ -- 310
+- -- 262
+* -- 5354
+:= -- 3178
+add.period$ -- 29
+call.type$ -- 31
+change.case$ -- 146
+chr.to.int$ -- 41
+cite$ -- 34
+duplicate$ -- 3230
+empty$ -- 2472
+format.name$ -- 565
+if$ -- 6895
 int.to.chr$ -- 1
-int.to.str$ -- 22
-missing$ -- 244
-newline$ -- 91
-num.names$ -- 39
-pop$ -- 658
+int.to.str$ -- 38
+missing$ -- 470
+newline$ -- 139
+num.names$ -- 87
+pop$ -- 1295
 preamble$ -- 1
-purify$ -- 65
+purify$ -- 145
 quote$ -- 0
-skip$ -- 663
+skip$ -- 1347
 stack$ -- 0
-substring$ -- 339
-swap$ -- 1562
-text.length$ -- 64
+substring$ -- 736
+swap$ -- 3081
+text.length$ -- 121
 text.prefix$ -- 0
 top$ -- 10
-type$ -- 220
-warning$ -- 3
-while$ -- 47
+type$ -- 452
+warning$ -- 4
+while$ -- 94
 width$ -- 0
-write$ -- 159
-(There were 26 error messages)
+write$ -- 295
+(There were 39 error messages)

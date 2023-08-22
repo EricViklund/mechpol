@@ -146,45 +146,45 @@ while executing---line 3515 of file apsrev4-2.bst
 ---they aren't the same literal types for entry pischalnikov2014rf
 while executing---line 3515 of file apsrev4-2.bst
 Warning--missing journal in pischalnikov2014rf
-You've used 31 entries,
+You've used 36 entries,
             6079 wiz_defined-function locations,
-            1797 strings with 21376 characters,
-and the built_in function-call counts, 34235 in all, are:
-= -- 2166
-> -- 1002
-< -- 204
-+ -- 310
-- -- 262
-* -- 5354
-:= -- 3178
-add.period$ -- 29
-call.type$ -- 31
-change.case$ -- 146
-chr.to.int$ -- 41
-cite$ -- 34
-duplicate$ -- 3230
-empty$ -- 2472
-format.name$ -- 565
-if$ -- 6895
-int.to.chr$ -- 1
-int.to.str$ -- 38
-missing$ -- 470
-newline$ -- 139
-num.names$ -- 87
-pop$ -- 1295
+            1824 strings with 22584 characters,
+and the built_in function-call counts, 40957 in all, are:
+= -- 2539
+> -- 1244
+< -- 241
++ -- 383
+- -- 324
+* -- 6499
+:= -- 3778
+add.period$ -- 34
+call.type$ -- 36
+change.case$ -- 173
+chr.to.int$ -- 45
+cite$ -- 39
+duplicate$ -- 3853
+empty$ -- 2963
+format.name$ -- 704
+if$ -- 8254
+int.to.chr$ -- 2
+int.to.str$ -- 43
+missing$ -- 546
+newline$ -- 154
+num.names$ -- 102
+pop$ -- 1516
 preamble$ -- 1
-purify$ -- 145
+purify$ -- 170
 quote$ -- 0
-skip$ -- 1347
+skip$ -- 1563
 stack$ -- 0
-substring$ -- 736
-swap$ -- 3081
-text.length$ -- 121
+substring$ -- 884
+swap$ -- 3713
+text.length$ -- 154
 text.prefix$ -- 0
 top$ -- 10
-type$ -- 452
+type$ -- 538
 warning$ -- 4
-while$ -- 94
+while$ -- 111
 width$ -- 0
-write$ -- 295
+write$ -- 337
 (There were 39 error messages)

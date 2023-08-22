@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{29}%
+\begin{thebibliography}{34}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -154,6 +154,19 @@
   {\bibinfo {title} {Update on nb3sn progress at cornell university},\
   }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Proc. of IPAC
   2018}\ } (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Eremeev}\ \emph {et~al.}(2013)\citenamefont
+  {Eremeev}, \citenamefont {Clemens}, \citenamefont {Macha}, \citenamefont
+  {Park}, \citenamefont {Williams} \emph {et~al.}}]{eremeev2013development}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Eremeev}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Clemens}},
+  \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Macha}}, \bibinfo
+  {author} {\bibfnamefont {H.}~\bibnamefont {Park}}, \bibinfo {author}
+  {\bibfnamefont {R.~S.}\ \bibnamefont {Williams}}, \emph {et~al.},\ }\bibfield
+   {title} {\bibinfo {title} {Development of a nb3sn cavity vapor diffusion
+  deposition system},\ }in\ \href@noop {} {\emph {\bibinfo {booktitle} {Proc.
+  SRF}}},\ Vol.~\bibinfo {volume} {13}\ (\bibinfo {year} {2013})\ pp.\ \bibinfo
+  {pages} {603--606}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Posen}\ \emph {et~al.}(2021)\citenamefont {Posen},
   \citenamefont {Lee}, \citenamefont {Seidman}, \citenamefont {Romanenko},
   \citenamefont {Tennis}, \citenamefont {Melnychuk},\ and\ \citenamefont
@@ -229,9 +242,10 @@
   {Proc. 9th Int. Particle Accelerator Conf.(IPAC'18), Vancouver, Canada}}}\
   (\bibinfo {year} {2018})\ pp.\ \bibinfo {pages} {3954--3957}\BibitemShut
   {NoStop}%
-\bibitem [{\citenamefont {Pudasaini}\ \emph {et~al.}(2017)\citenamefont
-  {Pudasaini}, \citenamefont {Eremeev}, \citenamefont {Reece}, \citenamefont
-  {Tuggle},\ and\ \citenamefont {Kelley}}]{pudasaini2017post}%
+\bibitem [{\citenamefont {Pudasaini}\ \emph
+  {et~al.}(2017{\natexlab{a}})\citenamefont {Pudasaini}, \citenamefont
+  {Eremeev}, \citenamefont {Reece}, \citenamefont {Tuggle},\ and\ \citenamefont
+  {Kelley}}]{pudasaini2017post}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {U.}~\bibnamefont
   {Pudasaini}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Eremeev}},
@@ -239,7 +253,7 @@
   {author} {\bibfnamefont {J.}~\bibnamefont {Tuggle}},\ and\ \bibinfo {author}
   {\bibfnamefont {M.}~\bibnamefont {Kelley}},\ }\bibfield  {title} {\bibinfo
   {title} {Post-processing of nb3sn coated niobium},\ }\href@noop {} {\
-  (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
+  (\bibinfo {year} {2017}{\natexlab{a}})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Hu}(2019)}]{hu2019reducing}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
@@ -325,6 +339,32 @@
   {\bibinfo {title} {Centrifugal barrel polishing of cavities worldwide},\ }in\
   \href@noop {} {\emph {\bibinfo {booktitle} {Proceedings of SRF}}}\ (\bibinfo
   {year} {2011})\ pp.\ \bibinfo {pages} {571--575}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Xu}\ \emph {et~al.}(2011)\citenamefont {Xu},
+  \citenamefont {Tian}, \citenamefont {Reece},\ and\ \citenamefont
+  {Kelley}}]{xu2011enhanced}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Xu}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Tian}}, \bibinfo
+  {author} {\bibfnamefont {C.~E.}\ \bibnamefont {Reece}},\ and\ \bibinfo
+  {author} {\bibfnamefont {M.~J.}\ \bibnamefont {Kelley}},\ }\bibfield  {title}
+  {\bibinfo {title} {Enhanced characterization of niobium surface topography},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review
+  Special Topics-Accelerators and Beams}\ }\textbf {\bibinfo {volume} {14}},\
+  \bibinfo {pages} {123501} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Pudasaini}\ \emph
+  {et~al.}(2017{\natexlab{b}})\citenamefont {Pudasaini}, \citenamefont
+  {Kelley}, \citenamefont {Eremeev}, \citenamefont {Reece},\ and\ \citenamefont
+  {Tuggle}}]{pudasaini2017surface}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {U.}~\bibnamefont
+  {Pudasaini}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Kelley}},
+  \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Eremeev}}, \bibinfo
+  {author} {\bibfnamefont {C.}~\bibnamefont {Reece}},\ and\ \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Tuggle}},\ }\bibfield  {title} {\bibinfo
+  {title} {Surface studies of nb3sn coated samples prepared under different
+  coating conditions},\ }in\ \href@noop {} {\emph {\bibinfo {booktitle} {Proc.
+  18th Int. Conf. RF Superconductivity (SRF'17)}}}\ (\bibinfo {year} {2017})\
+  pp.\ \bibinfo {pages} {894--899}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Palczewski}\ \emph {et~al.}(2013)\citenamefont
   {Palczewski}, \citenamefont {Ciovati}, \citenamefont {Li},\ and\
   \citenamefont {Geng}}]{palczewski2013exploration}%
@@ -339,6 +379,40 @@
   (\bibinfo  {institution} {Thomas Jefferson National Accelerator Facility
   (TJNAF), Newport News, VA~…},\ \bibinfo {year} {2013})\BibitemShut
   {NoStop}%
+\bibitem [{\citenamefont {Sun}\ \emph {et~al.}(2023)\citenamefont {Sun},
+  \citenamefont {Baraissov}, \citenamefont {Dukes}, \citenamefont {Dare},
+  \citenamefont {Oseroff}, \citenamefont {Thompson}, \citenamefont {Muller},\
+  and\ \citenamefont {Liepe}}]{sun2023surface}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont
+  {Sun}}, \bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont {Baraissov}},
+  \bibinfo {author} {\bibfnamefont {C.~A.}\ \bibnamefont {Dukes}}, \bibinfo
+  {author} {\bibfnamefont {D.~K.}\ \bibnamefont {Dare}}, \bibinfo {author}
+  {\bibfnamefont {T.}~\bibnamefont {Oseroff}}, \bibinfo {author} {\bibfnamefont
+  {M.~O.}\ \bibnamefont {Thompson}}, \bibinfo {author} {\bibfnamefont {D.~A.}\
+  \bibnamefont {Muller}},\ and\ \bibinfo {author} {\bibfnamefont {M.~U.}\
+  \bibnamefont {Liepe}},\ }\href@noop {} {\bibinfo {title} {Surface oxides,
+  carbides, and impurities on rf superconducting nb and nb3sn: A comprehensive
+  analysis}} (\bibinfo {year} {2023}),\ \Eprint
+  {https://arxiv.org/abs/2305.02467} {arXiv:2305.02467 [cond-mat.mtrl-sci]}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Cano}\ \emph {et~al.}(2023)\citenamefont {Cano},
+  \citenamefont {Eremeev}, \citenamefont {Zuazo}, \citenamefont {Lee},
+  \citenamefont {Luo}, \citenamefont {Martinello}, \citenamefont {Romanenko},\
+  and\ \citenamefont {Posen}}]{cano2023selective}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Cano}}, \bibinfo {author} {\bibfnamefont {G.~V.}\ \bibnamefont {Eremeev}},
+  \bibinfo {author} {\bibfnamefont {J.~R.}\ \bibnamefont {Zuazo}}, \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {Lee}}, \bibinfo {author}
+  {\bibfnamefont {B.}~\bibnamefont {Luo}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Martinello}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {Romanenko}},\ and\ \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {Posen}},\ }\href@noop {} {\bibinfo {title} {Selective
+  thermal evolution of native oxide layer in nb and nb3sn-coated srf grade nb:
+  An in-situ angular xps study}} (\bibinfo {year} {2023}),\ \Eprint
+  {https://arxiv.org/abs/2304.06112} {arXiv:2304.06112 [cond-mat.mtrl-sci]}
+  \BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Pischalnikov}\ \emph {et~al.}(2014)\citenamefont
   {Pischalnikov}, \citenamefont {Carcagno}, \citenamefont {Lewis},
   \citenamefont {Nehring}, \citenamefont {Pilipenko}, \citenamefont {Schappert}
@@ -353,14 +427,6 @@
   {title} {\bibinfo {title} {Rf control and daq systems for the upgraded
   vertical test facility at fnal},\ }\href@noop {} {\  (\bibinfo {year}
   {2014})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Porter}(2021)}]{porter2021advancing}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~D.}\ \bibnamefont
-  {Porter}},\ }\emph {\bibinfo {title} {Advancing the maximum accelerating
-  gradient of niobium-3 tin superconducting radiofrequency accelerator
-  cavities: RF measurements, dynamic temperature mapping, and material
-  growth}},\ \href@noop {} {Ph.D. thesis},\ \bibinfo  {school} {Cornell
-  University} (\bibinfo {year} {2021})\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Kulyavtsev}\ \emph {et~al.}(2021)\citenamefont
   {Kulyavtsev}, \citenamefont {Eremeev},\ and\ \citenamefont
   {Posen}}]{kulyavtsev2021simulations}%
@@ -372,6 +438,14 @@
   rf field limits due to thermal impedance}} (\bibinfo {year} {2021}),\ \Eprint
   {https://arxiv.org/abs/2104.01267} {arXiv:2104.01267 [cond-mat.supr-con]}
   \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Porter}(2021)}]{porter2021advancing}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~D.}\ \bibnamefont
+  {Porter}},\ }\emph {\bibinfo {title} {Advancing the maximum accelerating
+  gradient of niobium-3 tin superconducting radiofrequency accelerator
+  cavities: RF measurements, dynamic temperature mapping, and material
+  growth}},\ \href@noop {} {Ph.D. thesis},\ \bibinfo  {school} {Cornell
+  University} (\bibinfo {year} {2021})\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Lee}\ \emph {et~al.}(2018)\citenamefont {Lee},
   \citenamefont {Posen}, \citenamefont {Mao}, \citenamefont {Trenikhina},
   \citenamefont {He}, \citenamefont {Hall}, \citenamefont {Liepe},\ and\

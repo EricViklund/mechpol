@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex doc"] 1692737495 "doc.aux" "doc.bbl" "doc" 1692737734
+["bibtex doc"] 1692737495 "doc.aux" "doc.bbl" "doc" 1692766153
   "/usr/share/texlive/texmf-dist/bibtex/bst/revtex/apsrev4-2.bst" 1601932770 69609 e9dea59f0e753ccda3ddc8f5806d846d ""
   "bib.bib" 1692737207 11248 b0b26592bc8f3482ff8ba954944b1cf9 ""
-  "doc.aux" 1692737733 11242 f4a73f61ebdc8bd1919292fb045031b6 "lualatex"
-  "docNotes.bib" 1692737733 104 4d8bb863c86f3d7b03a471e9d4707f34 "lualatex"
+  "doc.aux" 1692766152 11242 f4a73f61ebdc8bd1919292fb045031b6 "lualatex"
+  "docNotes.bib" 1692766152 104 4d8bb863c86f3d7b03a471e9d4707f34 "lualatex"
   (generated)
   "doc.bbl"
   "doc.blg"
-["lualatex"] 1692737717 "doc.tex" "doc.pdf" "doc" 1692737734
+["lualatex"] 1692766132 "doc.tex" "doc.pdf" "doc" 1692766153
   "../doc/figs/Coupon_Cavity.png" 1680028781 1972256 6384b4e29343893d6cad44137ee17cce ""
   "../doc/figs/Material_Removal_Graph.png" 1680028781 419432 d2e185100383b007c60185cfe46d213a ""
   "../doc/figs/Optical_Surface_Profiles.png" 1680028781 10129298 f95bbae184ad5c188b085a311ddc1940 ""
@@ -156,9 +156,9 @@
   "/usr/share/texmf/tex/latex/lm/omllmm.fd" 1256929440 888 44447a3a3af84a22454ef89500942d93 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1678647077 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/luahbtex/lualatex.fmt" 1686005696 4555377 865f56733ede94831d924f9e8d418b0d ""
-  "doc.aux" 1692737733 11242 f4a73f61ebdc8bd1919292fb045031b6 "lualatex"
+  "doc.aux" 1692766152 11242 f4a73f61ebdc8bd1919292fb045031b6 "lualatex"
   "doc.bbl" 1692737496 29853 375f9f38390bfc35d9acca992e73b9c3 "bibtex doc"
-  "doc.tex" 1692737713 36686 b512cf9158fcbdebd233b84359c90de2 ""
+  "doc.tex" 1692766123 36688 99af3495c58dd91bfab0c7e0d8424dba ""
   (generated)
   "doc.aux"
   "doc.log"

@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2023.6.5)  22 AUG 2023 23:48
+This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2023.6.5)  31 AUG 2023 16:10
  restricted system commands enabled.
 **doc.tex
 (./doc.tex
@@ -730,90 +730,94 @@ or `english'. on input line 10.
 
 \openout3 = docNotes.bib
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 9.00096pt on input line 25.
+(Font)              scaled to size 9.00096pt on input line 27.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 25.
+(Font)              scaled to size 6.00064pt on input line 27.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 8.99904pt on input line 25.
+(Font)              scaled to size 8.99904pt on input line 27.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 25.
+(Font)              scaled to size 5.99936pt on input line 27.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 12.00128pt on input line 29.
+(Font)              scaled to size 12.00128pt on input line 31.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.00085pt on input line 29.
+(Font)              scaled to size 8.00085pt on input line 31.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 11.99872pt on input line 29.
+(Font)              scaled to size 11.99872pt on input line 31.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.99915pt on input line 29.
+(Font)              scaled to size 7.99915pt on input line 31.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<../doc/figs/Coupon_Cavity.png, id=14, 244.72429pt x 227.6505pt>
+<../doc/figs/Coupon_Cavity.png, id=16, 244.72429pt x 227.6505pt>
 File: ../doc/figs/Coupon_Cavity.png Graphic file (type png)
 <use ../doc/figs/Coupon_Cavity.png>
-Package luatex.def Info: ../doc/figs/Coupon_Cavity.png  used on input line 77.
+Package luatex.def Info: ../doc/figs/Coupon_Cavity.png  used on input line 79.
 (luatex.def)             Requested size: 246.0pt x 228.84138pt.
 
 [2]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 86.
+ on input line 88.
 
 <../doc/figs/Optical_Surface_Profiles.png, id=20, 221.98935pt x 569.0058pt>
 File: ../doc/figs/Optical_Surface_Profiles.png Graphic file (type png)
 <use ../doc/figs/Optical_Surface_Profiles.png>
 Package luatex.def Info: ../doc/figs/Optical_Surface_Profiles.png  used on inpu
-t line 94.
+t line 96.
 (luatex.def)             Requested size: 196.80075pt x 504.45137pt.
 <../doc/figs/Surface_Roughness_Graph.png, id=21, 244.63396pt x 455.18056pt>
 File: ../doc/figs/Surface_Roughness_Graph.png Graphic file (type png)
 <use ../doc/figs/Surface_Roughness_Graph.png>
 Package luatex.def Info: ../doc/figs/Surface_Roughness_Graph.png  used on input
- line 104.
+ line 106.
 (luatex.def)             Requested size: 196.80075pt x 366.18689pt.
 <../doc/figs/Material_Removal_Graph.png, id=22, 241.02045pt x 220.48372pt>
 File: ../doc/figs/Material_Removal_Graph.png Graphic file (type png)
 <use ../doc/figs/Material_Removal_Graph.png>
 Package luatex.def Info: ../doc/figs/Material_Removal_Graph.png  used on input 
-line 114.
+line 116.
 (luatex.def)             Requested size: 196.80075pt x 180.0341pt.
 [3<../doc/figs/Coupon_Cavity.png><../doc/figs/Optical_Surface_Profiles.png>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 122.
+ on input line 124.
 
-<../doc/figs/SEM_Images.png, id=28, 227.6505pt x 162.1257pt>
+<../doc/figs/SEM_Images.png, id=29, 227.6505pt x 162.1257pt>
 File: ../doc/figs/SEM_Images.png Graphic file (type png)
 <use ../doc/figs/SEM_Images.png>
-Package luatex.def Info: ../doc/figs/SEM_Images.png  used on input line 138.
+Package luatex.def Info: ../doc/figs/SEM_Images.png  used on input line 140.
 (luatex.def)             Requested size: 196.80075pt x 140.16011pt.
-<../doc/figs/Sample_Surface_Scratches.png, id=29, 244.63396pt x 345.6915pt>
+<../doc/figs/Sample_Surface_Scratches.png, id=30, 244.63396pt x 345.6915pt>
 File: ../doc/figs/Sample_Surface_Scratches.png Graphic file (type png)
 <use ../doc/figs/Sample_Surface_Scratches.png>
 Package luatex.def Info: ../doc/figs/Sample_Surface_Scratches.png  used on inpu
-t line 148.
+t line 150.
 (luatex.def)             Requested size: 196.80075pt x 278.10435pt.
-<../doc/figs/Sample_Surface_Damage_Layer.png, id=30, 244.63396pt x 489.38835pt>
+<../doc/figs/Sample_Surface_Damage_Layer.png, id=31, 244.63396pt x 489.38835pt>
 
 File: ../doc/figs/Sample_Surface_Damage_Layer.png Graphic file (type png)
 <use ../doc/figs/Sample_Surface_Damage_Layer.png>
 Package luatex.def Info: ../doc/figs/Sample_Surface_Damage_Layer.png  used on i
-nput line 158.
+nput line 160.
 (luatex.def)             Requested size: 196.80075pt x 393.70663pt.
 [4<../doc/figs/Surface_Roughness_Graph.png><../doc/figs/Material_Removal_Graph.p
 ng>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 167.
+ on input line 169.
 
 [5<../doc/figs/SEM_Images.png><../doc/figs/Sample_Surface_Scratches.png><../doc/
 figs/Sample_Surface_Damage_Layer.png>]
-<../doc/figs/VTS_Test_Graph.png, id=43, 244.63396pt x 512.09317pt>
+<../doc/figs/VTS_Test_Graph.png, id=44, 244.63396pt x 512.09317pt>
 File: ../doc/figs/VTS_Test_Graph.png Graphic file (type png)
 <use ../doc/figs/VTS_Test_Graph.png>
-Package luatex.def Info: ../doc/figs/VTS_Test_Graph.png  used on input line 195
+Package luatex.def Info: ../doc/figs/VTS_Test_Graph.png  used on input line 197
 .
 (luatex.def)             Requested size: 196.80075pt x 411.97238pt.
- [6<../doc/figs/VTS_Test_Graph.png>]
-[7] (./doc.bbl
+ [6]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 211.
+
+[7<../doc/figs/VTS_Test_Graph.png>] (./doc.bbl
 Underfull \hbox (badness 3138) in paragraph at lines 61--67
  []\TU/lmr/m/n/9 C. Boul-ware, S. Bau-rac, J. Diemer, T. Grimm,
  []
@@ -823,29 +827,30 @@ AED: lastpage setting LastPage
 [9] (./doc.aux))
 
 Here is how much of LuaTeX's memory you used:
- 15763 strings out of 477805
- 244179,794899 words of node,token memory allocated
- 555 words of node memory still in use:
-   10 hlist, 2 vlist, 2 rule, 1 glue, 4 kern, 1 glyph, 11 attribute, 57 glue_spe
-c, 11 attribute_list nodes
-   avail lists: 1:1,2:977,3:1101,4:200,5:1368,6:100,7:26093,8:9,9:658,10:19,11:2
-044
- 36035 multiletter control sequences out of 65536+600000
- 71 fonts using 21944959 bytes
- 87i,6n,115p,1266b,440s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 15764 strings out of 477805
+ 244187,794899 words of node,token memory allocated
+ 566 words of node memory still in use:
+   10 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 12 attribute, 57 glue_spe
+c, 12 attribute_list nodes
+   avail lists: 1:2,2:1043,3:1186,4:216,5:1432,6:108,7:27373,8:9,9:698,10:19,11:
+2100
+ 36036 multiletter control sequences out of 65536+600000
+ 72 fonts using 22076711 bytes
+ 87i,8n,115p,1266b,440s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf/fonts/opentype/public/lm-math/latinmodern-math.otf></usr/share
 /texmf/fonts/opentype/public/lm/lmroman6-bold.otf></usr/share/texmf/fonts/openty
-pe/public/lm-math/latinmodern-math.otf></usr/share/texmf/fonts/opentype/public/l
-m/lmroman7-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman9-bold.
-otf></usr/share/texmf/fonts/opentype/public/lm/lmroman6-regular.otf></usr/share/
-texmf/fonts/opentype/public/lm/lmroman9-regular.otf></usr/share/texmf/fonts/open
-type/public/lm/lmroman9-italic.otf></usr/share/texmf/fonts/opentype/public/lm/lm
-roman10-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman8-bold.otf
-></usr/share/texmf/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on doc.pdf (9 pages, 31397604 bytes).
+pe/public/lm/lmroman8-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmr
+oman7-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman9-bold.otf><
+/usr/share/texmf/fonts/opentype/public/lm/lmroman6-regular.otf></usr/share/texmf
+/fonts/opentype/public/lm/lmroman9-regular.otf></usr/share/texmf/fonts/opentype/
+public/lm/lmroman9-italic.otf></usr/share/texmf/fonts/opentype/public/lm-math/la
+tinmodern-math.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman10-regular.
+otf></usr/share/texmf/fonts/opentype/public/lm/lmroman8-bold.otf></usr/share/tex
+mf/fonts/opentype/public/lm/lmroman12-bold.otf>
+Output written on doc.pdf (9 pages, 31402225 bytes).
 
-PDF statistics: 125 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
+PDF statistics: 132 PDF objects out of 1000 (max. 8388607)
+ 68 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 

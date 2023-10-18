@@ -1,5 +1,6 @@
 .tmp/
 .conda/
+.vscode/
 *.aux
 *.bbl
 *.blg

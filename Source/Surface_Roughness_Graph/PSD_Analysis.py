@@ -11,7 +11,7 @@ import numpy as np
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 
-data_folder = "C:/Users/Eric Viklund/Documents/Nb3Sn/Nb3Sn_Mechanical_Polishing/Mechanical_Polishing_Manuscript/Figures/Source/Surface_Roughness_Graph/Data/Height_Maps/"
+data_folder = "C:/Users/Eric Viklund/mechpol/Source/Surface_Roughness_Graph/Data/Height_Maps/"
 files = sorted(os.listdir(data_folder))
 pixel_size = 0.112072
 plt.figure()

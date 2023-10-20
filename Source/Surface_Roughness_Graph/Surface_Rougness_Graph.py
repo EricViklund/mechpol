@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 from matplotlib.ticker import ScalarFormatter
 import os
 
-Data = np.loadtxt('Source/Surface_Roughness_Graph/Data/Surface_Roughness.txt')
+Data = np.loadtxt('C:/Users/Eric Viklund/mechpol/Source/Surface_Roughness_Graph/Data/Surface_Roughness.txt')
 
 Tumbling_Duration = Data[:,0]
 Polished_Rq = Data[:,1]
@@ -39,9 +39,8 @@ ax1.yaxis.set_major_formatter(ScalarFormatter())
 ax1.tick_params(axis='both', which='major', labelsize=10)
 # ax1.tick_params(axis='both', which='minor', labelsize=7)
 
-#%%
 
-data_folder = "Source/Surface_Roughness_Graph/Data/Height_Maps/"
+data_folder = "C:/Users/Eric Viklund/mechpol/Source/Surface_Roughness_Graph/Data/Height_Maps/"
 files = sorted(os.listdir(data_folder))
 pixel_size = 0.112072
 
@@ -78,10 +77,10 @@ for file in files:
     wavelength = 1/frequencies
     PSD = (PSD[1:int(PSD.shape[0]/2)]+np.flip(PSD[int(PSD.shape[0]/2):-1]))/2
 
-    ax2.plot(wavelength,PSD,color=colors[file])
+    ax2.plot(wavelength,PSD,)
 
 labels = ('Initial Coating','2 Hours','4 Hours','6 Hours','8 Hours','Electropolished Nb','Thin Coated Nb$_3$Sn')
 ax2.legend(labels,loc='lower right',fontsize=8)
 
 plt.tight_layout()
-plt.savefig('doc/figs/Surface_Roughness_Graph.png')
+plt.savefig('C:/Users/Eric Viklund/mechpol/doc/figs/Surface_Roughness_Graph.png')

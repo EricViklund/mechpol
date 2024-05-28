@@ -1,480 +1,170 @@
-%apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
-%Control: key (0)
-%Control: author (8) initials jnrlst
-%Control: editor formatted (1) identically to author
-%Control: production of article title (0) allowed
-%Control: page (0) single
-%Control: year (1) truncated
-%Control: production of eprint (0) enabled
-\begin{thebibliography}{34}%
-\makeatletter
-\providecommand \@ifxundefined [1]{%
- \@ifx{#1\undefined}
-}%
-\providecommand \@ifnum [1]{%
- \ifnum #1\expandafter \@firstoftwo
- \else \expandafter \@secondoftwo
- \fi
-}%
-\providecommand \@ifx [1]{%
- \ifx #1\expandafter \@firstoftwo
- \else \expandafter \@secondoftwo
- \fi
-}%
-\providecommand \natexlab [1]{#1}%
-\providecommand \enquote  [1]{``#1''}%
-\providecommand \bibnamefont  [1]{#1}%
-\providecommand \bibfnamefont [1]{#1}%
-\providecommand \citenamefont [1]{#1}%
-\providecommand \href@noop [0]{\@secondoftwo}%
-\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
-\providecommand \@href[1]{\@@startlink{#1}\@@href}%
-\providecommand \@@href[1]{\endgroup#1\@@endlink}%
-\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
-  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
-\providecommand \@@startlink[1]{}%
-\providecommand \@@endlink[0]{}%
-\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
-\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
-\providecommand \urlprefix  [0]{URL }%
-\providecommand \Eprint [0]{\href }%
-\providecommand \doibase [0]{https://doi.org/}%
-\providecommand \selectlanguage [0]{\@gobble}%
-\providecommand \bibinfo  [0]{\@secondoftwo}%
-\providecommand \bibfield  [0]{\@secondoftwo}%
-\providecommand \translation [1]{[#1]}%
-\providecommand \BibitemOpen [0]{}%
-\providecommand \bibitemStop [0]{}%
-\providecommand \bibitemNoStop [0]{.\EOS\space}%
-\providecommand \EOS [0]{\spacefactor3000\relax}%
-\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
-\let\auto@bib@innerbib\@empty
-%</preamble>
-\bibitem [{\citenamefont {Boulware}\ \emph {et~al.}(2019)\citenamefont
-  {Boulware}, \citenamefont {Baurac}, \citenamefont {Diemer}, \citenamefont
-  {Grimm}, \citenamefont {Schnepp} \emph {et~al.}}]{boulware2019high}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
-  {Boulware}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Baurac}},
-  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Diemer}}, \bibinfo
-  {author} {\bibfnamefont {T.}~\bibnamefont {Grimm}}, \bibinfo {author}
-  {\bibfnamefont {A.}~\bibnamefont {Schnepp}}, \emph {et~al.},\ }\bibfield
-  {title} {\bibinfo {title} {High-power superconducting electron linacs for
-  commercial applications},\ }\href@noop {} {\  (\bibinfo {year}
-  {2019})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Liarte}\ \emph {et~al.}(2017)\citenamefont {Liarte},
-  \citenamefont {Posen}, \citenamefont {Transtrum}, \citenamefont {Catelani},
-  \citenamefont {Liepe},\ and\ \citenamefont {Sethna}}]{liarte2017theoretical}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~B.}\ \bibnamefont
-  {Liarte}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Posen}},
-  \bibinfo {author} {\bibfnamefont {M.~K.}\ \bibnamefont {Transtrum}}, \bibinfo
-  {author} {\bibfnamefont {G.}~\bibnamefont {Catelani}}, \bibinfo {author}
-  {\bibfnamefont {M.}~\bibnamefont {Liepe}},\ and\ \bibinfo {author}
-  {\bibfnamefont {J.~P.}\ \bibnamefont {Sethna}},\ }\bibfield  {title}
-  {\bibinfo {title} {Theoretical estimates of maximum fields in superconducting
-  resonant radio frequency cavities: stability theory, disorder, and
-  laminates},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
-  {Superconductor Science and Technology}\ }\textbf {\bibinfo {volume} {30}},\
-  \bibinfo {pages} {033002} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Catelani}\ and\ \citenamefont
-  {Sethna}(2008)}]{catelani2008temperature}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
-  {Catelani}}\ and\ \bibinfo {author} {\bibfnamefont {J.~P.}\ \bibnamefont
-  {Sethna}},\ }\bibfield  {title} {\bibinfo {title} {Temperature dependence of
-  the superheating field for superconductors in the high-$\kappa$ london
-  limit},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical
-  Review B}\ }\textbf {\bibinfo {volume} {78}},\ \bibinfo {pages} {224509}
-  (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Lin}\ and\ \citenamefont
-  {Gurevich}(2012)}]{lin2012effect}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.~P.-J.}\
-  \bibnamefont {Lin}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
-  {Gurevich}},\ }\bibfield  {title} {\bibinfo {title} {Effect of impurities on
-  the superheating field of type-ii superconductors},\ }\href@noop {}
-  {\bibfield  {journal} {\bibinfo  {journal} {Physical Review B}\ }\textbf
-  {\bibinfo {volume} {85}},\ \bibinfo {pages} {054513} (\bibinfo {year}
-  {2012})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Kubo}(2020)}]{kubo2020superfluid}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
-  {Kubo}},\ }\bibfield  {title} {\bibinfo {title} {Superfluid flow in
-  disordered superconductors with dynes pair-breaking scattering: Depairing
-  current, kinetic inductance, and superheating field},\ }\href@noop {}
-  {\bibfield  {journal} {\bibinfo  {journal} {Physical Review Research}\
-  }\textbf {\bibinfo {volume} {2}},\ \bibinfo {pages} {033203} (\bibinfo {year}
-  {2020})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Galayda}(2018)}]{galayda2018lcls}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~N.}\ \bibnamefont
-  {Galayda}},\ }\href@noop {} {\emph {\bibinfo {title} {The LCLS-II: A high
-  power upgrade to the LCLS}}},\ \bibinfo {type} {Tech. Rep.}\ (\bibinfo
-  {institution} {SLAC National Accelerator Lab., Menlo Park, CA (United
-  States)},\ \bibinfo {year} {2018})\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Posen}\ and\ \citenamefont
-  {Hall}(2017)}]{posen2017nb3sn}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
-  {Posen}}\ and\ \bibinfo {author} {\bibfnamefont {D.~L.}\ \bibnamefont
-  {Hall}},\ }\bibfield  {title} {\bibinfo {title} {Nb3sn superconducting
-  radiofrequency cavities: fabrication, results, properties, and prospects},\
-  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Superconductor
-  Science and Technology}\ }\textbf {\bibinfo {volume} {30}},\ \bibinfo {pages}
-  {033004} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Pudasaini}\ \emph {et~al.}(2019)\citenamefont
-  {Pudasaini}, \citenamefont {Eremeev}, \citenamefont {Angle}, \citenamefont
-  {Tuggle}, \citenamefont {Reece},\ and\ \citenamefont
-  {Kelley}}]{pudasaini2019growth}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {U.}~\bibnamefont
-  {Pudasaini}}, \bibinfo {author} {\bibfnamefont {G.~V.}\ \bibnamefont
-  {Eremeev}}, \bibinfo {author} {\bibfnamefont {J.~W.}\ \bibnamefont {Angle}},
-  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Tuggle}}, \bibinfo
-  {author} {\bibfnamefont {C.~E.}\ \bibnamefont {Reece}},\ and\ \bibinfo
-  {author} {\bibfnamefont {M.~J.}\ \bibnamefont {Kelley}},\ }\bibfield  {title}
-  {\bibinfo {title} {Growth of nb3sn coating in tin vapor-diffusion process},\
-  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Journal of Vacuum
-  Science \& Technology A}\ }\textbf {\bibinfo {volume} {37}} (\bibinfo {year}
-  {2019})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Porter}\ \emph {et~al.}(2018)\citenamefont {Porter},
-  \citenamefont {Arias}, \citenamefont {Cueva}, \citenamefont {Ding},
-  \citenamefont {Hall}, \citenamefont {Liepe}, \citenamefont {Muller},
-  \citenamefont {Sitaraman} \emph {et~al.}}]{porter2018update}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
-  {Porter}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Arias}},
-  \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Cueva}}, \bibinfo
-  {author} {\bibfnamefont {J.}~\bibnamefont {Ding}}, \bibinfo {author}
-  {\bibfnamefont {D.}~\bibnamefont {Hall}}, \bibinfo {author} {\bibfnamefont
-  {M.}~\bibnamefont {Liepe}}, \bibinfo {author} {\bibfnamefont
-  {D.}~\bibnamefont {Muller}}, \bibinfo {author} {\bibfnamefont
-  {N.}~\bibnamefont {Sitaraman}}, \emph {et~al.},\ }\bibfield  {title}
-  {\bibinfo {title} {Update on nb3sn progress at cornell university},\
-  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Proc. of IPAC
-  2018}\ } (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Eremeev}\ \emph {et~al.}(2013)\citenamefont
-  {Eremeev}, \citenamefont {Clemens}, \citenamefont {Macha}, \citenamefont
-  {Park}, \citenamefont {Williams} \emph {et~al.}}]{eremeev2013development}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
-  {Eremeev}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Clemens}},
-  \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Macha}}, \bibinfo
-  {author} {\bibfnamefont {H.}~\bibnamefont {Park}}, \bibinfo {author}
-  {\bibfnamefont {R.~S.}\ \bibnamefont {Williams}}, \emph {et~al.},\ }\bibfield
-   {title} {\bibinfo {title} {Development of a nb3sn cavity vapor diffusion
-  deposition system},\ }in\ \href@noop {} {\emph {\bibinfo {booktitle} {Proc.
-  SRF}}},\ Vol.~\bibinfo {volume} {13}\ (\bibinfo {year} {2013})\ pp.\ \bibinfo
-  {pages} {603--606}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Posen}\ \emph {et~al.}(2021)\citenamefont {Posen},
-  \citenamefont {Lee}, \citenamefont {Seidman}, \citenamefont {Romanenko},
-  \citenamefont {Tennis}, \citenamefont {Melnychuk},\ and\ \citenamefont
-  {Sergatskov}}]{posen2021advances}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
-  {Posen}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Lee}}, \bibinfo
-  {author} {\bibfnamefont {D.~N.}\ \bibnamefont {Seidman}}, \bibinfo {author}
-  {\bibfnamefont {A.}~\bibnamefont {Romanenko}}, \bibinfo {author}
-  {\bibfnamefont {B.}~\bibnamefont {Tennis}}, \bibinfo {author} {\bibfnamefont
-  {O.}~\bibnamefont {Melnychuk}},\ and\ \bibinfo {author} {\bibfnamefont
-  {D.}~\bibnamefont {Sergatskov}},\ }\bibfield  {title} {\bibinfo {title}
-  {Advances in nb3sn superconducting radiofrequency cavities towards first
-  practical accelerator applications},\ }\href@noop {} {\bibfield  {journal}
-  {\bibinfo  {journal} {Superconductor Science and Technology}\ }\textbf
-  {\bibinfo {volume} {34}},\ \bibinfo {pages} {025007} (\bibinfo {year}
-  {2021})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Knobloch}\ \emph {et~al.}(1999)\citenamefont
-  {Knobloch}, \citenamefont {Geng}, \citenamefont {Liepe}, \citenamefont
-  {Padamsee} \emph {et~al.}}]{knobloch1999high}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
-  {Knobloch}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Geng}},
-  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Liepe}}, \bibinfo
-  {author} {\bibfnamefont {H.}~\bibnamefont {Padamsee}}, \emph {et~al.},\
-  }\bibfield  {title} {\bibinfo {title} {High-field q slope in superconducting
-  cavities due to magnetic field enhancement at grain boundaries},\ }in\
-  \href@noop {} {\emph {\bibinfo {booktitle} {Proceedings of the 9th Workshop
-  on RF Superconductivity}}}\ (\bibinfo {organization} {Citeseer},\ \bibinfo
-  {year} {1999})\ pp.\ \bibinfo {pages} {77--91}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Xu}\ \emph {et~al.}(2016)\citenamefont {Xu},
-  \citenamefont {Reece},\ and\ \citenamefont {Kelley}}]{xu2016simulation}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
-  {Xu}}, \bibinfo {author} {\bibfnamefont {C.~E.}\ \bibnamefont {Reece}},\ and\
-  \bibinfo {author} {\bibfnamefont {M.~J.}\ \bibnamefont {Kelley}},\ }\bibfield
-   {title} {\bibinfo {title} {Simulation of nonlinear superconducting rf losses
-  derived from characteristic topography of etched and electropolished niobium
-  surfaces},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
-  {Physical Review Accelerators and Beams}\ }\textbf {\bibinfo {volume} {19}},\
-  \bibinfo {pages} {033501} (\bibinfo {year} {2016})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Porter}\ \emph {et~al.}(2016)\citenamefont {Porter},
-  \citenamefont {Hall}, \citenamefont {Liepe}, \citenamefont {Maniscalco} \emph
-  {et~al.}}]{porter2016surface}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
-  {Porter}}, \bibinfo {author} {\bibfnamefont {D.~L.}\ \bibnamefont {Hall}},
-  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Liepe}}, \bibinfo
-  {author} {\bibfnamefont {J.}~\bibnamefont {Maniscalco}}, \emph {et~al.},\
-  }\bibfield  {title} {\bibinfo {title} {Surface roughness effect on the
-  performance of nb3sn cavities},\ }\href@noop {} {\bibfield  {journal}
-  {\bibinfo  {journal} {Proc. of LINAC 2016}\ } (\bibinfo {year}
-  {2016})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Kubo}(2015)}]{kubo2015magnetic}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
-  {Kubo}},\ }\bibfield  {title} {\bibinfo {title} {Magnetic field enhancement
-  at a pit on the surface of a superconducting accelerating cavity},\
-  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Progress of
-  Theoretical and Experimental Physics}\ }\textbf {\bibinfo {volume} {2015}},\
-  \bibinfo {pages} {073G01} (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Pudasaini}\ \emph {et~al.}(2018)\citenamefont
-  {Pudasaini}, \citenamefont {Eremeev}, \citenamefont {Reece}, \citenamefont
-  {Tuggle},\ and\ \citenamefont {Kelley}}]{pudasaini2018studies}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {U.}~\bibnamefont
-  {Pudasaini}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Eremeev}},
-  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Reece}}, \bibinfo
-  {author} {\bibfnamefont {J.}~\bibnamefont {Tuggle}},\ and\ \bibinfo {author}
-  {\bibfnamefont {M.}~\bibnamefont {Kelley}},\ }\bibfield  {title} {\bibinfo
-  {title} {Studies of electropolishing and oxypolishing treated diffusion
-  coated nb3sn surfaces},\ }in\ \href@noop {} {\emph {\bibinfo {booktitle}
-  {Proc. 9th Int. Particle Accelerator Conf.(IPAC'18), Vancouver, Canada}}}\
-  (\bibinfo {year} {2018})\ pp.\ \bibinfo {pages} {3954--3957}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Pudasaini}\ \emph
-  {et~al.}(2017{\natexlab{a}})\citenamefont {Pudasaini}, \citenamefont
-  {Eremeev}, \citenamefont {Reece}, \citenamefont {Tuggle},\ and\ \citenamefont
-  {Kelley}}]{pudasaini2017post}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {U.}~\bibnamefont
-  {Pudasaini}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Eremeev}},
-  \bibinfo {author} {\bibfnamefont {C.~E.}\ \bibnamefont {Reece}}, \bibinfo
-  {author} {\bibfnamefont {J.}~\bibnamefont {Tuggle}},\ and\ \bibinfo {author}
-  {\bibfnamefont {M.}~\bibnamefont {Kelley}},\ }\bibfield  {title} {\bibinfo
-  {title} {Post-processing of nb3sn coated niobium},\ }\href@noop {} {\
-  (\bibinfo {year} {2017}{\natexlab{a}})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Hu}(2019)}]{hu2019reducing}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
-  {Hu}},\ }\bibfield  {title} {\bibinfo {title} {Reducing surface roughness of
-  nb3sn through chemical polishing treatments},\ }in\ \href@noop {} {\emph
-  {\bibinfo {booktitle} {Conference on RF Superconductivity}}}\ (\bibinfo
-  {year} {2019})\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Sitaraman}\ \emph {et~al.}(2021)\citenamefont
-  {Sitaraman}, \citenamefont {Kelley}, \citenamefont {Porter}, \citenamefont
-  {Liepe}, \citenamefont {Arias}, \citenamefont {Carlson}, \citenamefont
-  {Pack}, \citenamefont {Transtrum},\ and\ \citenamefont
-  {Sundararaman}}]{sitaraman2021effect}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.~S.}\ \bibnamefont
-  {Sitaraman}}, \bibinfo {author} {\bibfnamefont {M.~M.}\ \bibnamefont
-  {Kelley}}, \bibinfo {author} {\bibfnamefont {R.~D.}\ \bibnamefont {Porter}},
-  \bibinfo {author} {\bibfnamefont {M.~U.}\ \bibnamefont {Liepe}}, \bibinfo
-  {author} {\bibfnamefont {T.~A.}\ \bibnamefont {Arias}}, \bibinfo {author}
-  {\bibfnamefont {J.}~\bibnamefont {Carlson}}, \bibinfo {author} {\bibfnamefont
-  {A.~R.}\ \bibnamefont {Pack}}, \bibinfo {author} {\bibfnamefont {M.~K.}\
-  \bibnamefont {Transtrum}},\ and\ \bibinfo {author} {\bibfnamefont
-  {R.}~\bibnamefont {Sundararaman}},\ }\bibfield  {title} {\bibinfo {title}
-  {Effect of the density of states at the fermi level on defect free energies
-  and superconductivity: A case study of nb 3 sn},\ }\href@noop {} {\bibfield
-  {journal} {\bibinfo  {journal} {Physical Review B}\ }\textbf {\bibinfo
-  {volume} {103}},\ \bibinfo {pages} {115106} (\bibinfo {year}
-  {2021})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Saito}(2003)}]{saito2003development}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
-  {Saito}},\ }\bibfield  {title} {\bibinfo {title} {Development of
-  electropolishing technology for superconducting cavities},\ }in\ \href@noop
-  {} {\emph {\bibinfo {booktitle} {Proceedings of the 2003 Particle Accelerator
-  Conference}}},\ Vol.~\bibinfo {volume} {1}\ (\bibinfo {organization} {IEEE},\
-  \bibinfo {year} {2003})\ pp.\ \bibinfo {pages} {462--466}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Crawford}(2017)}]{crawford2017extreme}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~C.}\ \bibnamefont
-  {Crawford}},\ }\bibfield  {title} {\bibinfo {title} {Extreme diffusion
-  limited electropolishing of niobium radiofrequency cavities},\ }\href@noop {}
-  {\bibfield  {journal} {\bibinfo  {journal} {Nuclear Instruments and Methods
-  in Physics Research Section A: Accelerators, Spectrometers, Detectors and
-  Associated Equipment}\ }\textbf {\bibinfo {volume} {849}},\ \bibinfo {pages}
-  {5} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Higuchi}\ \emph {et~al.}(1996)\citenamefont
-  {Higuchi}, \citenamefont {Noguchi}, \citenamefont {Ono}, \citenamefont
-  {Funahashi}, \citenamefont {Sait{\^o}}, \citenamefont {Inoue}, \citenamefont
-  {Kako}, \citenamefont {Suzuki},\ and\ \citenamefont
-  {Shishido}}]{higuchi1996investigation}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
-  {Higuchi}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Noguchi}},
-  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Ono}}, \bibinfo {author}
-  {\bibfnamefont {Y.}~\bibnamefont {Funahashi}}, \bibinfo {author}
-  {\bibfnamefont {K.}~\bibnamefont {Sait{\^o}}}, \bibinfo {author}
-  {\bibfnamefont {H.}~\bibnamefont {Inoue}}, \bibinfo {author} {\bibfnamefont
-  {E.}~\bibnamefont {Kako}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
-  {Suzuki}},\ and\ \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
-  {Shishido}},\ }\href@noop {} {\emph {\bibinfo {title} {Investigation on
-  barrel polishing for superconducting niobium cavities}}},\ \bibinfo {type}
-  {Tech. Rep.}\ (\bibinfo  {institution} {SCAN-9605109},\ \bibinfo {year}
-  {1996})\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Cooper}\ and\ \citenamefont
-  {Cooley}(2012)}]{cooper2012mirror}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
-  {Cooper}}\ and\ \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
-  {Cooley}},\ }\bibfield  {title} {\bibinfo {title} {Mirror-smooth surfaces and
-  repair of defects in superconducting rf cavities by mechanical polishing},\
-  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Superconductor
-  Science and Technology}\ }\textbf {\bibinfo {volume} {26}},\ \bibinfo {pages}
-  {015011} (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Cooper}\ \emph {et~al.}(2011)\citenamefont {Cooper},
-  \citenamefont {Saito}, \citenamefont {Bullock}, \citenamefont {Joshi},\ and\
-  \citenamefont {Palczewski}}]{cooper2011centrifugal}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
-  {Cooper}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Saito}},
-  \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Bullock}}, \bibinfo
-  {author} {\bibfnamefont {S.}~\bibnamefont {Joshi}},\ and\ \bibinfo {author}
-  {\bibfnamefont {A.}~\bibnamefont {Palczewski}},\ }\bibfield  {title}
-  {\bibinfo {title} {Centrifugal barrel polishing of cavities worldwide},\ }in\
-  \href@noop {} {\emph {\bibinfo {booktitle} {Proceedings of SRF}}}\ (\bibinfo
-  {year} {2011})\ pp.\ \bibinfo {pages} {571--575}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Xu}\ \emph {et~al.}(2011)\citenamefont {Xu},
-  \citenamefont {Tian}, \citenamefont {Reece},\ and\ \citenamefont
-  {Kelley}}]{xu2011enhanced}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
-  {Xu}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Tian}}, \bibinfo
-  {author} {\bibfnamefont {C.~E.}\ \bibnamefont {Reece}},\ and\ \bibinfo
-  {author} {\bibfnamefont {M.~J.}\ \bibnamefont {Kelley}},\ }\bibfield  {title}
-  {\bibinfo {title} {Enhanced characterization of niobium surface topography},\
-  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review
-  Special Topics-Accelerators and Beams}\ }\textbf {\bibinfo {volume} {14}},\
-  \bibinfo {pages} {123501} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Pudasaini}\ \emph
-  {et~al.}(2017{\natexlab{b}})\citenamefont {Pudasaini}, \citenamefont
-  {Kelley}, \citenamefont {Eremeev}, \citenamefont {Reece},\ and\ \citenamefont
-  {Tuggle}}]{pudasaini2017surface}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {U.}~\bibnamefont
-  {Pudasaini}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Kelley}},
-  \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Eremeev}}, \bibinfo
-  {author} {\bibfnamefont {C.}~\bibnamefont {Reece}},\ and\ \bibinfo {author}
-  {\bibfnamefont {J.}~\bibnamefont {Tuggle}},\ }\bibfield  {title} {\bibinfo
-  {title} {Surface studies of nb3sn coated samples prepared under different
-  coating conditions},\ }in\ \href@noop {} {\emph {\bibinfo {booktitle} {Proc.
-  18th Int. Conf. RF Superconductivity (SRF'17)}}}\ (\bibinfo {year} {2017})\
-  pp.\ \bibinfo {pages} {894--899}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Palczewski}\ \emph {et~al.}(2013)\citenamefont
-  {Palczewski}, \citenamefont {Ciovati}, \citenamefont {Li},\ and\
-  \citenamefont {Geng}}]{palczewski2013exploration}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
-  {Palczewski}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Ciovati}},
-  \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Li}},\ and\ \bibinfo
-  {author} {\bibfnamefont {R.}~\bibnamefont {Geng}},\ }\href@noop {} {\emph
-  {\bibinfo {title} {Exploration of material removal rate of SRF elliptical
-  cavities as a function of media type and cavity shape on niobium and copper
-  using centrifugal barrel polishing (CBP)}}},\ \bibinfo {type} {Tech. Rep.}\
-  (\bibinfo  {institution} {Thomas Jefferson National Accelerator Facility
-  (TJNAF), Newport News, VA~…},\ \bibinfo {year} {2013})\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Sun}\ \emph {et~al.}(2023)\citenamefont {Sun},
-  \citenamefont {Baraissov}, \citenamefont {Dukes}, \citenamefont {Dare},
-  \citenamefont {Oseroff}, \citenamefont {Thompson}, \citenamefont {Muller},\
-  and\ \citenamefont {Liepe}}]{sun2023surface}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont
-  {Sun}}, \bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont {Baraissov}},
-  \bibinfo {author} {\bibfnamefont {C.~A.}\ \bibnamefont {Dukes}}, \bibinfo
-  {author} {\bibfnamefont {D.~K.}\ \bibnamefont {Dare}}, \bibinfo {author}
-  {\bibfnamefont {T.}~\bibnamefont {Oseroff}}, \bibinfo {author} {\bibfnamefont
-  {M.~O.}\ \bibnamefont {Thompson}}, \bibinfo {author} {\bibfnamefont {D.~A.}\
-  \bibnamefont {Muller}},\ and\ \bibinfo {author} {\bibfnamefont {M.~U.}\
-  \bibnamefont {Liepe}},\ }\href@noop {} {\bibinfo {title} {Surface oxides,
-  carbides, and impurities on rf superconducting nb and nb3sn: A comprehensive
-  analysis}} (\bibinfo {year} {2023}),\ \Eprint
-  {https://arxiv.org/abs/2305.02467} {arXiv:2305.02467 [cond-mat.mtrl-sci]}
-  \BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Cano}\ \emph {et~al.}(2023)\citenamefont {Cano},
-  \citenamefont {Eremeev}, \citenamefont {Zuazo}, \citenamefont {Lee},
-  \citenamefont {Luo}, \citenamefont {Martinello}, \citenamefont {Romanenko},\
-  and\ \citenamefont {Posen}}]{cano2023selective}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
-  {Cano}}, \bibinfo {author} {\bibfnamefont {G.~V.}\ \bibnamefont {Eremeev}},
-  \bibinfo {author} {\bibfnamefont {J.~R.}\ \bibnamefont {Zuazo}}, \bibinfo
-  {author} {\bibfnamefont {J.}~\bibnamefont {Lee}}, \bibinfo {author}
-  {\bibfnamefont {B.}~\bibnamefont {Luo}}, \bibinfo {author} {\bibfnamefont
-  {M.}~\bibnamefont {Martinello}}, \bibinfo {author} {\bibfnamefont
-  {A.}~\bibnamefont {Romanenko}},\ and\ \bibinfo {author} {\bibfnamefont
-  {S.}~\bibnamefont {Posen}},\ }\href@noop {} {\bibinfo {title} {Selective
-  thermal evolution of native oxide layer in nb and nb3sn-coated srf grade nb:
-  An in-situ angular xps study}} (\bibinfo {year} {2023}),\ \Eprint
-  {https://arxiv.org/abs/2304.06112} {arXiv:2304.06112 [cond-mat.mtrl-sci]}
-  \BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Pischalnikov}\ \emph {et~al.}(2014)\citenamefont
-  {Pischalnikov}, \citenamefont {Carcagno}, \citenamefont {Lewis},
-  \citenamefont {Nehring}, \citenamefont {Pilipenko}, \citenamefont {Schappert}
-  \emph {et~al.}}]{pischalnikov2014rf}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
-  {Pischalnikov}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
-  {Carcagno}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Lewis}},
-  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Nehring}}, \bibinfo
-  {author} {\bibfnamefont {R.}~\bibnamefont {Pilipenko}}, \bibinfo {author}
-  {\bibfnamefont {W.}~\bibnamefont {Schappert}}, \emph {et~al.},\ }\bibfield
-  {title} {\bibinfo {title} {Rf control and daq systems for the upgraded
-  vertical test facility at fnal},\ }\href@noop {} {\  (\bibinfo {year}
-  {2014})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Kulyavtsev}\ \emph {et~al.}(2021)\citenamefont
-  {Kulyavtsev}, \citenamefont {Eremeev},\ and\ \citenamefont
-  {Posen}}]{kulyavtsev2021simulations}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
-  {Kulyavtsev}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
-  {Eremeev}},\ and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
-  {Posen}},\ }\href@noop {} {\bibinfo {title} {Simulations of $nb_{3}sn$ layer
-  rf field limits due to thermal impedance}} (\bibinfo {year} {2021}),\ \Eprint
-  {https://arxiv.org/abs/2104.01267} {arXiv:2104.01267 [cond-mat.supr-con]}
-  \BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Porter}(2021)}]{porter2021advancing}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~D.}\ \bibnamefont
-  {Porter}},\ }\emph {\bibinfo {title} {Advancing the maximum accelerating
-  gradient of niobium-3 tin superconducting radiofrequency accelerator
-  cavities: RF measurements, dynamic temperature mapping, and material
-  growth}},\ \href@noop {} {Ph.D. thesis},\ \bibinfo  {school} {Cornell
-  University} (\bibinfo {year} {2021})\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Lee}\ \emph {et~al.}(2018)\citenamefont {Lee},
-  \citenamefont {Posen}, \citenamefont {Mao}, \citenamefont {Trenikhina},
-  \citenamefont {He}, \citenamefont {Hall}, \citenamefont {Liepe},\ and\
-  \citenamefont {Seidman}}]{lee2018atomic}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
-  {Lee}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Posen}}, \bibinfo
-  {author} {\bibfnamefont {Z.}~\bibnamefont {Mao}}, \bibinfo {author}
-  {\bibfnamefont {Y.}~\bibnamefont {Trenikhina}}, \bibinfo {author}
-  {\bibfnamefont {K.}~\bibnamefont {He}}, \bibinfo {author} {\bibfnamefont
-  {D.~L.}\ \bibnamefont {Hall}}, \bibinfo {author} {\bibfnamefont
-  {M.}~\bibnamefont {Liepe}},\ and\ \bibinfo {author} {\bibfnamefont {D.~N.}\
-  \bibnamefont {Seidman}},\ }\bibfield  {title} {\bibinfo {title} {Atomic-scale
-  analyses of nb3sn on nb prepared by vapor diffusion for superconducting
-  radiofrequency cavity applications: a correlative study},\ }\href@noop {}
-  {\bibfield  {journal} {\bibinfo  {journal} {Superconductor Science and
-  Technology}\ }\textbf {\bibinfo {volume} {32}},\ \bibinfo {pages} {024001}
-  (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Viklund}\ \emph {et~al.}(2023)\citenamefont
-  {Viklund}, \citenamefont {Lee}, \citenamefont {Seidman},\ and\ \citenamefont
-  {Posen}}]{10073616}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
-  {Viklund}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Lee}},
-  \bibinfo {author} {\bibfnamefont {D.~N.}\ \bibnamefont {Seidman}},\ and\
-  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Posen}},\ }\bibfield
-  {title} {\bibinfo {title} {Three-dimensional reconstruction of nb3sn films by
-  focused ion beam cross sectional microscopy},\ }\href
-  {https://doi.org/10.1109/TASC.2023.3257819} {\bibfield  {journal} {\bibinfo
-  {journal} {IEEE Transactions on Applied Superconductivity}\ ,\ \bibinfo
-  {pages} {1}} (\bibinfo {year} {2023})}\BibitemShut {NoStop}%
-\end{thebibliography}%
+\begin{thebibliography}{10}
+
+\bibitem{boulware2019high}
+Chase Boulware, S~Baurac, J~Diemer, TL~Grimm, AB~Schnepp, et~al.
+\newblock High-power superconducting electron linacs for commercial applications.
+\newblock 2019.
+
+\bibitem{cano2023selective}
+Arely Cano, Grigory~V. Eremeev, Juan~R. Zuazo, Jaeyel Lee, Bing Luo, Martina Martinello, Alexander Romanenko, and Sam Posen.
+\newblock Selective thermal evolution of native oxide layer in nb and nb3sn-coated srf grade nb: An in-situ angular xps study, 2023.
+
+\bibitem{catelani2008temperature}
+G~Catelani and James~P Sethna.
+\newblock Temperature dependence of the superheating field for superconductors in the high-$\kappa$ london limit.
+\newblock {\em Physical Review B}, 78(22):224509, 2008.
+
+\bibitem{cooper2011centrifugal}
+C~Cooper, Kenji Saito, B~Bullock, S~Joshi, and A~Palczewski.
+\newblock Centrifugal barrel polishing of cavities worldwide.
+\newblock In {\em Proceedings of SRF}, pages 571--575, 2011.
+
+\bibitem{cooper2012mirror}
+CA~Cooper and LD~Cooley.
+\newblock Mirror-smooth surfaces and repair of defects in superconducting rf cavities by mechanical polishing.
+\newblock {\em Superconductor Science and Technology}, 26(1):015011, 2012.
+
+\bibitem{crawford2017extreme}
+Anthony~C Crawford.
+\newblock Extreme diffusion limited electropolishing of niobium radiofrequency cavities.
+\newblock {\em Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment}, 849:5--10, 2017.
+
+\bibitem{eremeev2013development}
+G~Eremeev, B~Clemens, K~Macha, H~Park, R~Scott Williams, et~al.
+\newblock Development of a nb3sn cavity vapor diffusion deposition system.
+\newblock In {\em Proc. SRF}, volume~13, pages 603--606, 2013.
+
+\bibitem{galayda2018lcls}
+John~N Galayda.
+\newblock The lcls-ii: A high power upgrade to the lcls.
+\newblock Technical report, SLAC National Accelerator Lab., Menlo Park, CA (United States), 2018.
+
+\bibitem{higuchi1996investigation}
+Tamawo Higuchi, S~Noguchi, M~Ono, Y~Funahashi, K~Sait{\^o}, H~Inoue, E~Kako, T~Suzuki, and T~Shishido.
+\newblock Investigation on barrel polishing for superconducting niobium cavities.
+\newblock Technical report, SCAN-9605109, 1996.
+
+\bibitem{hu2019reducing}
+H~Hu.
+\newblock Reducing surface roughness of nb3sn through chemical polishing treatments.
+\newblock In {\em Conference on RF Superconductivity}, 2019.
+
+\bibitem{knobloch1999high}
+J~Knobloch, RL~Geng, M~Liepe, H~Padamsee, et~al.
+\newblock High-field q slope in superconducting cavities due to magnetic field enhancement at grain boundaries.
+\newblock In {\em Proceedings of the 9th Workshop on RF Superconductivity}, pages 77--91. Citeseer, 1999.
+
+\bibitem{kubo2015magnetic}
+Takayuki Kubo.
+\newblock Magnetic field enhancement at a pit on the surface of a superconducting accelerating cavity.
+\newblock {\em Progress of Theoretical and Experimental Physics}, 2015(7):073G01, 2015.
+
+\bibitem{kubo2020superfluid}
+Takayuki Kubo.
+\newblock Superfluid flow in disordered superconductors with dynes pair-breaking scattering: Depairing current, kinetic inductance, and superheating field.
+\newblock {\em Physical Review Research}, 2(3):033203, 2020.
+
+\bibitem{kulyavtsev2021simulations}
+Paulina Kulyavtsev, Grigory Eremeev, and Sam Posen.
+\newblock Simulations of $nb_{3}sn$ layer rf field limits due to thermal impedance, 2021.
+
+\bibitem{lee2018atomic}
+Jaeyel Lee, Sam Posen, Zugang Mao, Yulia Trenikhina, Kai He, Daniel~L Hall, Matthias Liepe, and David~N Seidman.
+\newblock Atomic-scale analyses of nb3sn on nb prepared by vapor diffusion for superconducting radiofrequency cavity applications: a correlative study.
+\newblock {\em Superconductor Science and Technology}, 32(2):024001, 2018.
+
+\bibitem{liarte2017theoretical}
+Danilo~B Liarte, Sam Posen, Mark~K Transtrum, Gianluigi Catelani, Matthias Liepe, and James~P Sethna.
+\newblock Theoretical estimates of maximum fields in superconducting resonant radio frequency cavities: stability theory, disorder, and laminates.
+\newblock {\em Superconductor Science and Technology}, 30(3):033002, 2017.
+
+\bibitem{lin2012effect}
+F~Pei-Jen Lin and Alexander Gurevich.
+\newblock Effect of impurities on the superheating field of type-ii superconductors.
+\newblock {\em Physical Review B}, 85(5):054513, 2012.
+
+\bibitem{palczewski2013exploration}
+Ari Palczewski, Gianluigi Ciovati, Yongming Li, and Rongli Geng.
+\newblock Exploration of material removal rate of srf elliptical cavities as a function of media type and cavity shape on niobium and copper using centrifugal barrel polishing (cbp).
+\newblock Technical report, Thomas Jefferson National Accelerator Facility (TJNAF), Newport News, VA~…, 2013.
+
+\bibitem{pischalnikov2014rf}
+Y~Pischalnikov, R~Carcagno, F~Lewis, R~Nehring, R~Pilipenko, W~Schappert, et~al.
+\newblock Rf control and daq systems for the upgraded vertical test facility at fnal.
+\newblock 2014.
+
+\bibitem{porter2018update}
+Ryan Porter, Tomas Arias, Paul Cueva, Jixun Ding, DL~Hall, Matthias Liepe, DA~Muller, Nathan Sitaraman, et~al.
+\newblock Update on nb3sn progress at cornell university.
+\newblock {\em Proc. of IPAC 2018}, 2018.
+
+\bibitem{porter2016surface}
+Ryan Porter, Daniel~Leslie Hall, Matthias Liepe, JT~Maniscalco, et~al.
+\newblock Surface roughness effect on the performance of nb3sn cavities.
+\newblock {\em Proc. of LINAC 2016}, 2016.
+
+\bibitem{porter2021advancing}
+Ryan~Douglas Porter.
+\newblock {\em Advancing the maximum accelerating gradient of niobium-3 tin superconducting radiofrequency accelerator cavities: RF measurements, dynamic temperature mapping, and material growth}.
+\newblock PhD thesis, Cornell University, 2021.
+
+\bibitem{posen2017nb3sn}
+Sam Posen and Daniel~Leslie Hall.
+\newblock Nb3sn superconducting radiofrequency cavities: fabrication, results, properties, and prospects.
+\newblock {\em Superconductor Science and Technology}, 30(3):033004, 2017.
+
+\bibitem{posen2021advances}
+Sam Posen, Jaeyel Lee, David~N Seidman, Alexander Romanenko, Brad Tennis, OS~Melnychuk, and DA~Sergatskov.
+\newblock Advances in nb3sn superconducting radiofrequency cavities towards first practical accelerator applications.
+\newblock {\em Superconductor Science and Technology}, 34(2):025007, 2021.
+
+\bibitem{pudasaini2018studies}
+U~Pudasaini, G~Eremeev, CE~Reece, J~Tuggle, and MJ~Kelley.
+\newblock Studies of electropolishing and oxypolishing treated diffusion coated nb3sn surfaces.
+\newblock In {\em Proc. 9th Int. Particle Accelerator Conf.(IPAC'18), Vancouver, Canada}, pages 3954--3957, 2018.
+
+\bibitem{pudasaini2017post}
+Uttar Pudasaini, G~Eremeev, Charles~E Reece, J~Tuggle, and MJ~Kelley.
+\newblock Post-processing of nb3sn coated niobium.
+\newblock 2017.
+
+\bibitem{pudasaini2019growth}
+Uttar Pudasaini, Grigory~V Eremeev, Jonathan~W Angle, Jay Tuggle, Charles~E Reece, and Michael~J Kelley.
+\newblock Growth of nb3sn coating in tin vapor-diffusion process.
+\newblock {\em Journal of Vacuum Science \& Technology A}, 37(5), 2019.
+
+\bibitem{pudasaini2017surface}
+Uttar Pudasaini, MJ~Kelley, GV~Eremeev, CE~Reece, and James Tuggle.
+\newblock Surface studies of nb3sn coated samples prepared under different coating conditions.
+\newblock In {\em Proc. 18th Int. Conf. RF Superconductivity (SRF'17)}, pages 894--899, 2017.
+
+\bibitem{saito2003development}
+K~Saito.
+\newblock Development of electropolishing technology for superconducting cavities.
+\newblock In {\em Proceedings of the 2003 Particle Accelerator Conference}, volume~1, pages 462--466. IEEE, 2003.
+
+\bibitem{sitaraman2021effect}
+Nathan~S Sitaraman, Michelle~M Kelley, Ryan~D Porter, Matthias~U Liepe, Tom{\'a}s~A Arias, Jared Carlson, Alden~R Pack, Mark~K Transtrum, and Ravishankar Sundararaman.
+\newblock Effect of the density of states at the fermi level on defect free energies and superconductivity: A case study of nb 3 sn.
+\newblock {\em Physical Review B}, 103(11):115106, 2021.
+
+\bibitem{sun2023surface}
+Zeming Sun, Zhaslan Baraissov, Catherine~A. Dukes, Darrah~K. Dare, Thomas Oseroff, Michael~O. Thompson, David~A. Muller, and Matthias~U. Liepe.
+\newblock Surface oxides, carbides, and impurities on rf superconducting nb and nb3sn: A comprehensive analysis, 2023.
+
+\bibitem{10073616}
+E.~Viklund, J.~Lee, D.~N. Seidman, and S.~Posen.
+\newblock Three-dimensional reconstruction of nb3sn films by focused ion beam cross sectional microscopy.
+\newblock {\em IEEE Transactions on Applied Superconductivity}, pages 1--5, 2023.
+
+\bibitem{xu2016simulation}
+Chen Xu, Charles~E Reece, and Michael~J Kelley.
+\newblock Simulation of nonlinear superconducting rf losses derived from characteristic topography of etched and electropolished niobium surfaces.
+\newblock {\em Physical Review Accelerators and Beams}, 19(3):033501, 2016.
+
+\bibitem{xu2011enhanced}
+Chen Xu, Hui Tian, Charles~E Reece, and Michael~J Kelley.
+\newblock Enhanced characterization of niobium surface topography.
+\newblock {\em Physical Review Special Topics-Accelerators and Beams}, 14(12):123501, 2011.
+
+\end{thebibliography}
